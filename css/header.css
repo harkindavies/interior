@@ -14,7 +14,7 @@
 
 	.top{
 		background: rgba(255,255,255,0.7);
-		min-height: 50px;
+		min-height: 45px;
 		padding: 10px 30px 0;
 		width: 100%;
 	}
@@ -25,7 +25,7 @@
 	}
 
 	nav ul{list-style: none; 
-		margin: 20px 0 20px 0px;
+		margin: 10px 0 10px 0px;
 		padding: 0;
 		text-align: center;
 	}
@@ -56,7 +56,7 @@
 	#banner > nav > div.name-container > a > span{
 		transform: translate(50%, 50%);
 		color: #fff;
-		font-size: 4.5vw;
+		font-size: 3.5vw;
 		font-variant: small-caps;
 		margin-left: 20px;
 		vertical-align: ;
@@ -135,7 +135,6 @@
 			min-height: auto;
 			padding: 7px 0 7px 7px;
 		}
-
 
 		#banner nav div.name-container{
 			padding-top:10px;

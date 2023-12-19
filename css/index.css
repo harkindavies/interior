@@ -28,7 +28,7 @@ body{
   color: #fff;
   text-align: center;
   margin: 15vh auto;
-  font-size: 52px;
+  font-size: 300%;
     font-family: "Playfair Display", serif;
     font-weight: 900;
     margin-bottom: 20px
@@ -37,7 +37,7 @@ body{
   color: #eee;
   text-align: center;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 30px;
 }
 
@@ -105,7 +105,7 @@ body{
 }
 .content2, .content3, .content4, .content5, .content6 {	margin-top: 0;}
 
-#details, #details2, #details3, #details4, #details5, #details6{font-family: Helvital;	font-size: 20px; }
+#details, #details2, #details3, #details4, #details5, #details6{font-family: Helvital;	font-size: 100%; }
 
 div.scroll{
   display: inline-flex;
