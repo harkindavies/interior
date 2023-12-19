@@ -1,0 +1,149 @@
+<?php
+$cookie_name = "user";
+$cookie_value = "John Doe";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+?>
+<html>
+<body>
+
+<?php
+if(!isset($_COOKIE[$cookie_name])) {
+    echo "Cookie named '" . $cookie_name . "' is not set!";
+} else {
+    echo "Cookie '" . $cookie_name . "' is set!<br>";
+    echo "Value is: " . $_COOKIE[$cookie_name];
+}
+?>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/font-awesome.min.css">
+	<script type="text/javascript" src="bootstrap/js/jQuery.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body class="container">
+<div>
+	<span id="a1" onclick="functionst(this)" class=" fa fa-star astar"></span>
+	<span id="a2" onclick="functionst(this)" class=" fa fa-star astar"></span>
+	<span id="a3" onclick="functionst(this)" class=" fa fa-star astar"></span>
+	<span id="a4" onclick="functionst(this)" class=" fa fa-star astar"></span>
+	<span id="a5" onclick="functionst(this)" class=" fa fa-star astar"></span>
+</div>
+
+<div>
+	<span id="b1" onclick="functionst(this)" class=" fa fa-star bstar"></span>
+	<span id="b2" onclick="functionst(this)" class=" fa fa-star bstar"></span>
+	<span id="b3" onclick="functionst(this)" class=" fa fa-star bstar"></span>
+	<span id="b4" onclick="functionst(this)" class=" fa fa-star bstar"></span>
+	<span id="b5" onclick="functionst(this)" class=" fa fa-star bstar"></span>
+</div>
+
+<div>
+	<span id="c1" onclick="functionst(this)" class=" fa fa-star cstar"></span>
+	<span id="c2" onclick="functionst(this)" class=" fa fa-star cstar"></span>
+	<span id="c3" onclick="functionst(this)" class=" fa fa-star cstar"></span>
+	<span id="c4" onclick="functionst(this)" class=" fa fa-star cstar"></span>
+	<span id="c5" onclick="functionst(this)" class=" fa fa-star cstar"></span>
+</div>
+
+<div>
+	<span id="d1" onclick="functionst(this)" class=" fa fa-star dstar"></span>
+	<span id="d2" onclick="functionst(this)" class=" fa fa-star dstar"></span>
+	<span id="d3" onclick="functionst(this)" class=" fa fa-star dstar"></span>
+	<span id="d4" onclick="functionst(this)" class=" fa fa-star dstar"></span>
+	<span id="d5" onclick="functionst(this)" class=" fa fa-star dstar"></span>
+</div>
+
+<div>
+	<span id="e1" onclick="functionst(this)" class=" fa fa-star estar"></span>
+	<span id="e2" onclick="functionst(this)" class=" fa fa-star estar"></span>
+	<span id="e3" onclick="functionst(this)" class=" fa fa-star estar"></span>
+	<span id="e4" onclick="functionst(this)" class=" fa fa-star estar"></span>
+	<span id="e5" onclick="functionst(this)" class=" fa fa-star estar"></span>
+</div>
+
+
+
+
+
+<!--interior index -->
+
+<div class="column">
+				  	<div class="imgcontainer">
+					    <img src="img/latest-pop-design-for-home-fall-ceiling-design.jpgaa" style="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					    <div class="text"  onclick="openModal();currentSlide(1)" ><p class="clicktoview fa fa-hand-o-up" style="font-size: 2vw;"></p>
+							<i class="fa fa-refresh fa-spin"></i></div>
+					</div>
+				  </div>
+				  <div class="column">
+				  	<div class="imgcontainer">
+					    <img src="img/False-ceiling-pop-design-also-with-interior-creative-photograph.jpgbb" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					    <div class="text" onclick="openModal();currentSlide(2)" ><p class="clicktoview fa fa-hand-o-up" style="font-size: 2vw;"></p>
+							<i class="fa fa-refresh fa-spin"></i></div>
+					</div>
+				  </div>
+				  <div class="column">
+				  	<div class="imgcontainer">
+					    <img src="img/dining-room-false-ceiling-designs-plasterboard.jpgcc" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					    <div class="text" onclick="openModal();currentSlide(3)" ><p class="clicktoview fa fa-hand-o-up" style="font-size: 2vw;"></p>
+							<i class="fa fa-refresh fa-spin"></i></div>
+						</div>
+				  </div>
+				  <div class="column">
+				  	<div class="imgcontainer">
+					    <img src="img/simple-pop-designs-for-hall-ceiling.jpgdd" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+					    <div class="text" onclick="openModal();currentSlide(4)" ><p class="clicktoview fa fa-hand-o-up" style="font-size: 2vw;"></p>
+							<i class="fa fa-refresh fa-spin"></i></div> 
+					</div>
+				  </div>
+
+
+				  <!-- end -->
+
+
+
+</body>
+<style type="text/css">
+	body{
+		margin: 10% auto;
+		background: rgba(0,0,0,0.4);
+	}
+
+	.fa-star{
+		color: #fff;
+		font-size: 20px;
+	}
+</style>
+</html>
+<script type="text/javascript">
+	/*function functionst(t){
+		$(".astar").css("color","#fff")
+		var rst = $(t).attr("id");
+
+		for (var i = 1; i <= rst; i++) {
+		    var rst2 = document.getElementById(i)
+            rst2.style.color = "yellow"
+            rst2.style.transition = "1.5s"
+		}
+	}*/
+
+	function functionst(b){
+		$(".fa-star").css("color","#fff")
+		var rst = $(b).attr("id");
+		rst2 = rst.slice(1, 2);
+		rst3 = rst.slice(0, 1);
+		alert(rst2 + rst3);
+		for (var i = 1; i <= rst2; i++) {
+		    var rst4 = document.getElementById(rst3 + i)
+            rst4.style.color = "yellow"
+            rst4.style.transition = "1.5s"
+		}
+	}
+</script>

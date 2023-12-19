@@ -1,0 +1,178 @@
+/*body{
+	background-image: url('../img/ceo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}*/
+	/*pop up with its progress */
+		div.ordermsg {
+			color: #fff;
+			background-color: #3cb371c2;
+			font-size: 18px;
+			position: fixed;
+			top: 0.2%;
+			right: 0.3%;
+			border-radius: 5px;
+			text-align: center;
+			padding: 10px 0px 0 ;
+			z-index: 100;
+		}
+		div.ordermsg2 {
+			background: rgba(255,0,0,0.7);
+			color: #fff;
+		}
+		div.ordermsg > span{margin: 0 10px;}
+
+		#myProgress {
+			width: 100%;
+			text-align: center;
+		 	position: relative;
+			margin: 5px 0 1px 0%;
+			border-radius: 15px;
+		}
+		div.myprogress{
+			background-color:  #4CAF50;
+		}
+		div.myProgress2 {
+			background-color: red;
+		}
+
+		#myBar {
+		  width: 100%;
+		  height: 4px;
+		  background-color:rgba(0,0,0,0.2);
+			border-radius: 15px;
+
+		}
+	
+		/*body{background-image: url("../img/paper.gif");}*/
+		#addpromove > div{
+		margin: 70px 0 0 5px;
+		transition: 0.5s;
+		margin-bottom: 5px;
+	}
+	.choosepro{
+		background: #fff;
+		opacity: 0.9;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		outline: none;
+		padding: 5px 10px;
+		transition: 0.5s;
+		margin-right: 5px;
+	}
+	a .choosepro {
+		color: mediumseagreen;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.choosepro:hover{
+		background: rgb(250, 255, 189);
+		/*border: 1px solid mediumseagreen;*/
+		transition: 0.5s;
+		color: mediumseagreen;
+		box-shadow: 2px 3px 4px #000000b5;
+	}
+	a .choosepro:hover{
+		/*color: mediumseagreen;*/
+	}
+	a .chooseactive {color: #fff;}
+	.chooseactive{
+		background: mediumseagreen;
+		opacity: ;
+		color: #fff;
+	}
+	.chooseactive:hover{
+		background: mediumseagreen;
+		color: #fff;
+	}
+		div tr td a>button#deletebtn, #retrieve{
+			margin: 5px 2px; 
+			background: red; 
+			opacity: .7;
+			transition:.5s;
+			border: 1px solid transparent;
+			padding: 10px 12px;
+
+		}
+		#deletebtn:hover, #retrieve:hover{
+			background: transparent;
+			border:1px solid red;
+			color: red;
+			opacity: unset;
+			transition: .5s;
+		}
+
+		#retrieve{
+			background: mediumseagreen;
+			opacity: unset;
+		}
+		#retrieve:hover{
+			border:1px solid mediumseagreen;
+			color: mediumseagreen;
+		}
+		#respondbtn, .respondbtn{
+			background: mediumseagreen;
+			margin: 5px 2px; 
+			opacity: 1;
+			transition:.5s;
+			border: 1px solid transparent;
+			padding: 10px 5px;
+		}
+		#respondbtn:hover, .respondbtn:hover{
+			background: transparent;
+			border:1px solid mediumseagreen;
+			color: mediumseagreen;
+			opacity: unset;
+			transition: .5s;
+		}
+
+		#deletebtn:focus, #retrieve:focus, #respondbtn:focus, .respondbtn:focus{
+			outline: none;
+		}
+		
+		div.capcontainer >.cap{font-size: 2.3em; text-align: center; margin: 1% auto 0; font-variant: small-caps;}
+		
+		/*pagination and table */
+
+	html { font-family: Tahoma, Geneva, sans-serif;} 
+
+     tr:nth-child(odd) { background-color: #ffffff; } 
+	 .table tr th:nth-child(even), .table tr th:nth-child(odd){ background-color: #54585d; 
+     		color: #ffffff; 
+     		font-weight: bold; 
+     		font-size: 13px;
+     		border: 1px solid #54585d;
+     		border-right: 1px solid #fff;
+     		text-align: center; 
+     	} 
+	 .table tr th:last-child{
+	 	border-right: 1px solid #54585d;
+	 }
+	 .table tr th:first-child{
+	 	border-left: 1px solid #54585d;
+	 } 
+	 td { color: #636363; border: 1px solid #dddfe1; text-transform: capitalize;} 
+	 tr { background-color: #f9fafb; } 
+	 tr:nthchild(odd) { background-color: #ffffff; } 
+	 .pagination { list-style-type: none; padding: 1px 10% 10px; display: inline-flex; justify-content: space-between; box-sizing: border-box;  } 
+	.pagination li { box-sizing: border,box; padding-right: 10px; } 
+	.pagination li a { box-sizing: border-box;
+		background-color: #e2e6e6;
+		padding: 8px 12px; 
+		text-decoration: none; 
+		font-size: 12px; 
+		font-weight: bold; 
+		color: mediumseagreen; 
+		border-radius: 4px;
+		} 
+	.pagination li a:hover { background-color: #d4dada; color: mediumseagreen; } 
+	.pagination .next a, .pagination .prev a { text-transform: uppercase; font-size: 12px; } 
+	.pagination .currentpage a { background-color: #45ce82; color: #fff; } 
+	.pagination .currentpage a:hover { background-color: mediumseagreen; color: #fff;} 
+		
+		@media screen and (max-width: 1024px){
+			div.ordermsg {
+				font-size: 15px;
+			}
+		}

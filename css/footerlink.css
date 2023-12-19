@@ -1,0 +1,151 @@
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.housebody, .hallbody, .deckscreedbody, .otherbody, .wallscreedbody, .walltvbody, .walldividerbody, .poppillarsbody, .arcbody {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100vh;
+  display: none;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.myimg {
+  vertical-align: middle;
+  height: 50vh;
+}
+
+img.demos, img.demop, img.demor, img.demoq, img.demow, img.demot, img.demou, img.demopillar, img.demoarc {
+  height: 10vh;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container1 {
+  position: relative;
+}
+
+.mycontainers{
+  width: 60%;
+  margin: 10vh auto;
+}
+
+/* Hide the images by default */
+.mySlidess, .mySlidesp, .mySlidesr, .mySlidesq, .mySlidesw,.mySlidest, .mySlidesu, .mySlidespillar, .mySlidesarc {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: 0.5s;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 20%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  transition: 0.5s ease-in;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container1 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+#closehousemodal, #closehallmodal, #closedeckscreedmodal, #closeothermodal, #closewallscreedmodal, #closewalltvmodal, #closewalldividermodal, #closepoppillarsmodal, #closearcmodal {
+ float: right; 
+ margin: 20px 20px 0 0; 
+ color: red; 
+ font-size: 33px;"
+}
+
+#closehousemodal:hover, #closehallmodal:hover, #closedeckscreedmodal:hover, #closeothermodal:hover, #closewallscreedmodal:hover, #closewalltvmodal:hover, #closewalldividermodal:hover, #closepoppillarsmodal:hover, #closearcmodal:hover {
+  color: #d50000;
+}
+
+.myrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.mycolumn {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demos, .demop, .demor,.demoq, .demow, .demot, .demou, .demopillar, .demoarc {
+  opacity: 0.6;
+}
+
+.actives, .demos:hover,  
+.activep, .demop:hover, 
+.activer, .demor:hover, 
+.activeq, .demoq:hover, 
+.activew, .demow:hover, 
+.activet, .demot:hover, 
+.activer, .demou:hover, 
+.activer, .demopillar:hover, 
+.activearc, .demoarc:hover
+{
+  opacity: 1;
+}
+
+@media screen and (max-width: 801px){
+  .mycontainers{
+    width: 90%;
+  }
+
+  .next{
+    right: 5%;
+  }
+  
+}
+</style>

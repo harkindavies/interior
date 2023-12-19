@@ -1,0 +1,65 @@
+/*header and toggle end */
+
+    .legend{
+      background-color: rgba(0,0,0,.5);
+      min-width: 100%;
+     
+    /* display: table;*/
+    }
+     .rows select option{background-color: rgba(0,0,0,.5);
+      background-color: rgba(0,0,0,.8);
+      font-size: 18px;
+      color: #fff;
+    } 
+    .rowss{text-align: center; margin: 10px 0;}
+    .rowss span{font-size: 18px; color: #eee;}
+
+    .rowss .bill{
+      font-size: 1.5em;
+      color: #ddd;
+      text-align: center;
+    }
+
+    /*.rows{display: table-row;}*/
+
+    .rows label{
+      margin: 2px;
+      padding: 5px;
+      color: #eee;
+      font-size: 17px;
+     
+    }
+    .rows select, .rows input{
+      margin: 5px;
+      padding: 7px;
+      width: 350px;
+      border-radius: 3px;
+      border:none;
+      font-size: 18px;
+      text-transform: capitalize;
+     
+
+    }
+   
+    .rows select:focus{
+      border:none;
+      outline: none;
+      border-color: : 1px solid #00cc44;
+    }
+
+
+    .ticketbtn .btn{
+      text-decoration: none;
+      border:none;
+      outline: 1px solid steelblue;
+      color: #eee;
+      font-size: 17px;
+      width: 180px;
+       transition: 1s ease;
+    }
+   .ticketbtn input>.mybtn:{color:#fff; 
+      outline: 1px solid steelblue; 
+      transition: 1s ease;
+      background-color: transparent;
+    }
+   

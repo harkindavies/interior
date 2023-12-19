@@ -1,0 +1,348 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+h4{
+  word-break: break-all;
+}
+
+.include{
+  display: none;
+}
+
+body.bmain {
+  font-family: Arial;
+  background-image: url("../img/plafond-chamber-simple-coucher.jpg");
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pcolumn .pcontent i.fa-plus, .pcolumn .pcontent i.fa-minus{
+  color:mediumseagreen;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.pcolumn .pcontent i.fa-minus{
+  color: #d50000;
+}
+#orderbtn{
+  position: fixed;
+  margin-left: 3px;
+  background: orange;
+  z-index: 22; 
+  outline:unset;
+  border: 1px solid transparent;
+  color: #000;
+  padding:11px; 
+  border-radius: 1px;
+  transition: 0.5s; 
+  display: none;
+}
+
+#orderbtn:hover{
+  background: mediumseagreen;
+  border: 1px solid mediumseagreen;
+  color: #fff;
+  transition: 0.5s;
+}
+.overlay{
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: rgba(0,190,110,.6);
+  min-height: inherit;
+  width: 94.8%;
+  margin: 40px 7px 30px 8px;
+  -webkit-transform:scale(0);
+  -moz-transform:scale(0);
+  transition: 0.5s;
+}
+
+.overlaytext{
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clickinfo{
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 07%;
+  background: #000;
+  font-size: 17px;
+  transform: translate(-50%, -50%);
+  padding: 6px;
+  border-radius: 4px;
+  color: #ddd;
+  visibility:hidden;
+}
+.clickinfo::after{
+  content: "";
+  position: absolute;
+  top: 33px;
+  left: 50%;
+  border-width: 5px;
+  border-color: #000 transparent transparent transparent;
+  border-style:solid;
+  transform: translate(-50%, -50%);
+}
+.pcolumn .pcontent i.fa-plus:hover{color: limegreen;}
+.pcolumn .pcontent i.fa-plus:hover .clickinfo{visibility: visible;}
+
+
+div.pcontent a> img{
+  height:26vh;
+}
+
+div.prow div div a i.price{
+  background: orange;
+  padding: 3px 10px;
+  width: 110px;
+  color: #fff; 
+  border-radius: 30px 0 0 30px;
+  float: right;
+}
+.promo{
+  clear:right; 
+  float: right;
+}
+
+div.pcontent a:hover{
+  text-decoration:none;
+}
+
+div.pcontent img:hover::after{
+  content: "click to view";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:  #008CBA;
+  font-size: 18px;
+}
+
+div.pcontent a:focus{
+text-decoration: none;
+color: purple;
+}
+
+/* Center website */
+.pmain {
+    max-width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.prow {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.prow,
+.prow > .pcolumn {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.pcolumn {
+  display: none;
+    box-sizing: border-box; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.prow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.pcontent {
+    padding: 2px 0;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.pshow {
+  display: block;
+}
+
+/* Style the buttons */
+.pbtn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+
+.pbtn:hover {
+  background-color: #ddd;
+}
+
+.pbtn.actives {
+  background-color: mediumseagreen;
+  color: white;
+}
+
+/*#content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding:3px 10px 10px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    font-size: 17px;
+}*/
+
+.myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid transparent;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.myBtn:hover {
+    border:1px solid mediumseagreen;
+    color: #aaa;
+    background: transparent;
+    transition: 1s;
+}
+
+
+/* start video */
+ .myVideo {
+      width: 100%;
+  }
+
+  #content > h1{
+    margin-top: 5px;
+  }
+  div.forvideo::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10px;
+  }
+
+  div.row div.videos {
+   /* Hide all elements by default */
+   box-sizing: border-box;
+    min-height: 450px;
+  }
+
+ #content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding:3px 10px 8px;
+    margin-bottom: 5px;
+  }
+
+
+  #content button{
+    width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid transparent;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+    outline: none;
+  }
+
+  #content button:hover {
+    border:1px solid mediumseagreen;
+    color: #14c363;
+    background: transparent;
+    transition: 1s;
+  }
+
+  @media screen and (min-width: 1724px){
+    div.row div.videos {
+      min-height: 500px;
+    }
+  }
+
+  @media screen and (min-width: 2020px){
+    div.row div.videos {
+      min-height: 550px;
+    }
+  }
+
+  @media screen and (min-width: 2500px){
+    div.row div.videos {
+      min-height: 600px;
+    }
+  }
+
+  @media screen and (max-width: 801px){
+    div.pcontent a> img{
+      height:15vh;
+    }
+  }
+
+  @media screen and (min-width: 866px) and (max-width: 992px){
+    .pcontent {
+        padding: 2px 0 2px 5px;
+    }
+  }
+  @media screen and (max-width: 865px){
+    .prow > .pcolumn::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .pcontent {
+        padding: 2px 0 2px 3px;
+    }
+    
+  }
+
+  @media screen and (max-width: 767px){
+    div.pcontent a> img{
+      height:27.5vh;
+    }
+  }
+
+  @media screen and (min-width:668px) and (max-width: 767px){
+    .overlay{
+      width: 97.4%;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width: 667px){
+    .overlay{
+      width: 97%;
+    }
+  }
+  @media screen and (min-width:400px) and (max-width: 499px){
+    .overlay{
+      width: 96%;
+    }
+  }
+  @media screen and (max-width: 327px){
+    .overlay{
+      width: 94%;
+    }
+  }
+</style>

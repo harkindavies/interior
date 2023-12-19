@@ -1,0 +1,189 @@
+	#addprojectbody{
+		background-image: url("../img/Double-lighting-drop-and-recess-rectangle.jpg");
+		background-repeat: no-repeat;
+		background-size: 200% 350%;
+		background-position: center;
+		overflow-x: hidden;
+	}
+
+
+	#addpromove > div{
+		margin-left: -30px;
+		transition: 0.5s;
+		margin-bottom: 5px;
+	}
+	.choosepro{
+		background: #fff;
+		opacity: 0.9;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		outline: none;
+		padding: 5px 10px;
+		transition: 0.5s;
+		margin-right: 5px;
+	}
+	a .choosepro {
+		color: mediumseagreen;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.choosepro:hover{
+		background: rgb(250, 255, 189);
+		/*border: 1px solid mediumseagreen;*/
+		transition: 0.5s;
+		color: mediumseagreen;
+		box-shadow: 2px 3px 4px #000000b5;
+	}
+	a .choosepro:hover{
+		/*color: mediumseagreen;*/
+	}
+	a .chooseactive {color: #fff;}
+	.chooseactive{
+		background: mediumseagreen;
+		opacity: ;
+		color: #fff;
+	}
+	.chooseactive:hover{
+		background: mediumseagreen;
+		color: #fff;
+	}
+
+	/*pop-up styling */
+	.resultmodal{
+  	display: none;
+    width: 60%;
+    height: ;
+    background: rgba(0,200,100,0.7);
+    position: fixed;
+    margin: 0 auto;
+    left: 20%;
+    top: 0%;
+    z-index: 999;
+    border: 1px solid mediumseagreen;
+    border-radius: 0  0 5px 5px;
+  }
+  .resultmodalcontent{
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px;
+    font-family: Helvital;
+    word-spacing: 3px;
+  }
+
+  .resulterror{
+    border: 1px solid #d50000;
+    background: rgba(255,0,0,0.6);
+
+  }
+
+  .resultcontenterror{
+    color: #fff; 
+  }
+  
+  /*pop-up end*/
+	.formbody{
+		margin: 3.2% auto;
+	}
+	.formbackground{
+		margin: 0 auto;
+	}
+
+
+	#formid{
+		margin-bottom: 15%;
+	}
+	.rows{
+		margin: 3px;
+		background: #eee;
+		padding: 0;
+		height: 38px;
+		width: 297px;
+		border-top-right-radius: 7px;
+		border-bottom-right-radius: 7px; 
+
+	}
+	.rows .fa{
+		padding: 10px;
+		border-style: none/*solid*/;
+		border-width: 1px;
+		border-color: /*#bbb transparent #bbb #bbb*/;
+		background: #eef;
+		transform: translate(0%, 1%);
+		font-size: 15.7px;
+	}
+
+	.rows .fa-photo{
+		font-size: 12px;
+		padding: 10px;
+	}
+
+	.rows input[type=password], .rows input[type=text], .rows input[type=email], .rows  input[type=file], .rows select, textarea{
+		font-size: 17px;
+		width: 260px;
+		border: none;
+		border-top-right-radius: 7px;
+		border-bottom-right-radius: 7px; 
+		padding: 7px;
+		border:none /*1px solid #bbb*/;
+		background: #eee;
+	}
+	textarea{
+		width: 297px;
+		position: absolute;
+		right: 16.7%;
+		height: 107px;
+		resize: none;
+	}
+	#descriptionerror{
+		position: absolute;
+		bottom: -133%;
+		left: 35%;
+	}
+
+	.rows select{
+		margin-left: -3px;
+		padding: 8px;
+	}
+
+	.rows#picture{
+		display: flex;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.rows input[type=file]:focus, .rows input[type=password]:focus, .rows input[type=text]:focus, .rows input[type=email]:focus, .rows select:focus, textarea:focus{
+		border-top-right-radius: 7px;
+		border-bottom-right-radius: 7px;
+		outline: none;
+		background: rgb(250, 255, 189);
+	}
+
+	.rowss #mysubmit{
+		border: 1px solid transparent;
+		background: mediumseagreen;
+		padding: 8px 30px;
+		border-radius: 5px;
+		color: #fff;
+		font-size: 17px;
+		transition: .5s;
+		margin-right: 100px;
+	}
+
+	.rowss #mysubmit:hover{
+		background: transparent;
+		border: 1px solid mediumseagreen;
+		color: mediumseagreen;
+		transition: .5s;
+	}
+	.rowss #mysubmit:focus{
+		border: 1px solid mediumseagreen; 
+		outline: none; color: mediumseagreen; 
+		background: transparent;
+	}
+	#loading{
+		display: none;
+			}
+	.logintext{font-size: 30px; font-variant: small-caps;}
+
+	.error, .errmsg{color: #d50000;margin-left: -50px;}

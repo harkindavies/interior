@@ -1,0 +1,118 @@
+	.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.95);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: #818181;
+}
+
+.sidenav .closebtn {
+	color: #fff;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav .closebtn:hover {color: #d50000;}
+
+#closein{
+	color: #555;
+	position: fixed;
+	font-size:30px;
+	cursor:pointer;
+	left: 0.4%;
+	top: 0.5%;
+	z-index: 9;
+	background: rgba(255,255,255,.8);
+	padding-right: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+#closein:hover {color: mediumseagreen;}
+
+
+ #mySidenav > span.name, #navcontainer .name{
+		font-size: 35px;
+		color: #fff;
+	}
+	#mySidenav > span.name > span{color: mediumseagreen;}
+	
+	#mySidenav > p{font-size: 14px;}
+
+	#mySidenav > ul{
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: auto;
+	    text-align: left;
+	}
+
+	#mySidenav ul li>a {
+	    display: block;
+	    color: #eee;
+	    padding: 10px 10px;
+	    text-decoration: none;
+	    margin: 15px 0;
+	    font-size: 16px;
+	    width: 100%;
+	    transition: .8s;
+	}
+
+	#mySidenav ul li #menulist li a {
+		padding: 7px;
+		margin: 0;
+		font-size: 15px;
+	}
+
+	#mySidenav ul li a.active {
+	    background-color: mediumseagreen;
+	    color: #fff;
+	    transition: .8s;
+	}
+
+	#mySidenav ul li a:hover:not(.active) {
+	    background-color: #555;
+	    color: mediumseagreen;
+	    transition: .8s;
+	}
+
+	#mySidenav ul a>span, #mySidenav ul a>.fa, .glyphicon{font-size: 18px;}
+
+	@media screen and (max-width: 1000px){
+			#closein{
+				top: 0.3%;
+				font-size: 20px;
+			}
+		}
+
+		@media screen and (max-width: 768px){
+			#closein{
+				top: 0.3%;
+				font-size: 30px;
+				padding: 0 5px;
+			}
+		}
+
+	@media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 15px;}
+	  .sidenav a {font-size: 18px;}
+	}
+	/* dashboard menu */
+	.dashboard{color: #eee; transition: .7s;}
+	.dashboard:hover{color: mediumseagreen; text-decoration: none; transition: .7s;}
+	.top{
+		position: fixed;
+	}

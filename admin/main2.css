@@ -1,0 +1,262 @@
+	body{font-family: ;}
+	.newmessage{
+		position: absolute;
+		right: 0%;
+		top: 9%;
+		margin: 20px;
+	}.helpmessage{
+		position: absolute;
+		right: 0%;
+		top: 13%;
+		margin: 20px;
+		color: #00cc66;
+	}
+
+	li a{color: #eee;}
+/*header start */
+		.space{height: 70px;}
+		.topimage{
+			position: absolute; 
+			top: -10px; left: 8%;
+		}
+		/*header end */
+
+/* login page start */		
+		.formbody{
+			margin: 10px auto;
+			width: 100%;
+			min-height: 300px;}
+
+		.formbackground{
+			background-color: rgba(0,0,0,.5);
+			background-color: rgba(0,0,0,.7);
+			transition: 0.7s;
+			margin-bottom: 14%;
+		}
+
+		.formbackground:hover{
+			background-color: rgba(0,0,0,.5);
+			background-color: rgba(0,0,0,.8);
+			transition: 0.7s;
+		}
+
+		.avatar{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-bottom: 1px dotted #eee;
+		}
+
+		.img-circle{
+			margin: 17px 0 25px 10%;
+		}
+
+		.logintext{
+			font-size: 18px;
+			color: #eee;
+			position: relative;
+			top: 57px;
+			right: 75px;
+			
+		}
+
+		form{display: table;
+			width: 100%;
+			min-height: inherit;
+			padding: 10px 10px 50px;
+		
+		}
+
+		.rows{display: table-row; text-align: ;}
+
+		.rows label{display: table-cell;
+			margin: 5px;
+			padding: 3px;
+			text-align: right;
+			color: #fff;
+		}
+		.rows input[type=email], .rows input[type=password], .rows input[type=text], .rows input[type=file]{display: table-cell;
+			margin: 10px 5px 10px 10px;
+			padding: 0px;
+			width: 95%;
+			background-color: transparent;
+			border: none;
+			border-bottom: 2px solid #fff;
+			font-size: 20px;
+			color: #fff;
+			transition: 0.5s ease-in;
+			text-overflow: ellipsis;
+		}
+
+		input[type=email]:focus, input[type=password]:focus, .rows input[type=text]:focus, .rows input[type=file]:focus{
+			outline: none;
+			background-color: transparent;
+			color: #fff;
+			border-bottom: 2px solid steelblue;
+			transition: 0.5s ease-in;
+		}
+		input[type=search]{
+			padding: 5px;
+			border: 1px solid #aaa;
+			width: 270px;
+			border-radius: 4px;
+			transition: 0.5s ease-in;
+		}
+		input[type=search]:focus{
+			
+			background-color: transparent;
+			padding: 5px;
+			border: 1px solid steelblue;
+			transition: 0.5s ease-in;
+		}
+
+		.error, .errmsg{color: red;
+			font-size: 18px;
+		}
+		.errmsg{width: 100%;}
+
+		span.successmsg{ color: #33cc33; font-size: 19px;}
+		
+		.login{display: table-cell;
+			width: 130px;
+			padding: 5px;
+			margin: 10px;
+			background-color: transparent;
+			outline: 1px solid #fff;
+			color: #fff;
+			border:none;
+			font-size: 22px;
+		}
+		.login:hover{color: steelblue; transition: 0.3s ease-in; outline: 1px solid steelblue;
+		}
+		.signup, .signup a{font-size: 20px;}
+		/*login page end*/
+
+/* welcome admin page*/
+.infocontent{
+	color: ;
+	border:2px solid #777;
+	margin: 10% auto;
+	padding: 10px;
+	line-height: 1.5;
+	font-size: 20px;
+	border-radius: 4px
+}
+.infocontent p.welcomeadmin{
+	color: #00cc66;
+	font-size: 25px;
+	text-align: center;
+	text-transform: capitalize;
+}
+/*welcome admin end */
+
+/* addadmin start*/
+
+form.regform1{display: table;
+	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.7);
+	margin-top: 10px;
+	padding: 4px 0;
+	width: ;
+	border-radius: 7px;
+}
+
+.rows{display: table-row;}
+
+.rows label{display: table-cell;
+	padding: 3px;
+	margin: 3px;
+	text-align: right;
+	color: #fff;
+	font-size: 16px;
+}
+
+input[type=text]{text-transform: capitalize;}
+
+p>span.regform{text-align: center; font-size: 200%;}
+
+span.error{color: #ff0000; 
+	margin: 6px;
+	font-size: 18px;
+}
+
+.loginbtn{display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 7px auto;
+}
+
+.login{padding: 7px 30px;
+	font-size: 18px;
+	background-color: transparent;
+	border: none;
+	outline: 1px solid #fff;
+	color: #fff;
+	transition: 0.3s ease-in;
+	
+}
+
+.login:hover{
+	color:steelblue;
+	outline: 1px solid steelblue;
+	transition: 0.3s ease-in;
+}
+
+.regform{
+	color: #fff;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 2px 3px 3px steelblue;
+	padding: 0px 0 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* addadmin end */
+/* change password start */
+div.changepascon{margin:100px auto;}
+.buttonchg .changepasswordbtn{background-color: transparent;
+	padding: 10px 15px;
+	margin: 1px auto;
+	color: #eee;
+	border:none;
+	outline: 1px solid #eee;
+	transition: 0.5s ease-in;
+	font-size: 17px;
+}
+.buttonchg .changepasswordbtn:hover{
+	color: steelblue;
+	outline: 1px solid steelblue;
+	transition: 0.5s ease-in;
+}
+/* change password end */
+/* tickets */
+.search{height: 50px; margin-left: 5px;}
+.btn.btn-link:focus, .btn.btn-link:hover{text-decoration: none;}
+/*media query */
+
+/* Addcar start */
+	div .regcar{
+		border: none;
+		color: steelblue;
+		outline: 1px solid #ddd;
+		font-size: 18px;
+		padding: 5px 8px;
+		background-color: transparent;
+		transition: 1s;
+	}
+	div .regcar:hover{
+		transition: 1s;
+		outline: 1px solid steelblue;
+		color: #ddd;
+		background-color: rgba(0,0,0,.5);
+	}
+
+/* addcar end */
+@media screen and (max-width: 500px){
+	.rows input[type=email], .rows input[type=password], .rows input[type=text], .rows input[type=file]{
+		width: 90%;
+		font-size: ;
+	}
+}

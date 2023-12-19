@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload -->
+<html itemscope="" itemtype="http://schema.org/QAPage" class="html__responsive"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>php - How to preview an image before and after upload? - Stack Overflow</title>
+        <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+        <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+        <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="https://stackoverflow.com/opensearch.xml">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload">
+        <meta property="og:site_name" content="Stack Overflow">
+        <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:domain" content="stackoverflow.com">
+        <meta name="twitter:title" property="og:title" itemprop="name" content="How to preview an image before and after upload?">
+        <meta name="twitter:description" property="og:description" itemprop="description" content="I am going to preview an image or photo in a form, but it doesn&#39;t work and the HTML code looks like this as below:
+
+&amp;lt;form action=&quot;&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot; name=&quot;personal_ima...">
+            <script src="./php - How to preview an image before and after upload_ - Stack Overflow_files/osd.js.download"></script><script src="./php - How to preview an image before and after upload_ - Stack Overflow_files/pubads_impl_rendering_2019053001.js.download"></script><script src="./php - How to preview an image before and after upload_ - Stack Overflow_files/rules-p-c1rF4kxgLUzNc.js.download" async=""></script><script async="" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/quant.js.download"></script><script async="" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/beacon.js.download"></script><script async="" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/analytics.js.download"></script><script src="./php - How to preview an image before and after upload_ - Stack Overflow_files/jquery.min.js.download"></script>
+        <script src="./php - How to preview an image before and after upload_ - Stack Overflow_files/stub.en.js.download"></script>
+    
+    <link rel="stylesheet" type="text/css" href="./php - How to preview an image before and after upload_ - Stack Overflow_files/stacks.css">
+    <link rel="stylesheet" type="text/css" href="./php - How to preview an image before and after upload_ - Stack Overflow_files/primary.css">
+
+    
+            <link rel="alternate" type="application/atom+xml" title="Feed for question &#39;How to preview an image before and after upload?&#39;" href="https://stackoverflow.com/feeds/question/16207575">
+            <meta name="twitter:app:country" content="US">
+            <meta name="twitter:app:name:iphone" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:iphone" content="871299723">
+            <meta name="twitter:app:url:iphone" content="se-zaphod://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload">
+            <meta name="twitter:app:name:ipad" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:ipad" content="871299723">
+            <meta name="twitter:app:url:ipad" content="se-zaphod://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload">
+            <meta name="twitter:app:name:googleplay" content="Stack Exchange Android">
+            <meta name="twitter:app:url:googleplay" content="http://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload">
+            <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin">
+        <script>
+
+            StackExchange.ready(function () {
+                    
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.initSnippetRenderer();
+                    });
+                    
+
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+                
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:1,shownCommentCount:1,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:16207575});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('1', '16207575');
+                                                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.post-text'); });
+
+            });
+        </script>
+
+        
+        
+        
+        
+        
+        
+
+
+        <script>
+        StackExchange.init({"locale":"en","serverTime":1559954938,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"922a4b4fde949ea4c7457940faeea96e5348e29ffd6c9befacbde0877c969cb2","tid":"c7d3e207-9306-f46d-6624-f3fad447427d","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/svg-icons","svgIconHash":"d5683df72f21"}, {"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{},"tags":{},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"site":{"allowImageUploads":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"asteriskIntraWordEmphasis":true},"flags":{"allowRetractingFlags":true},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"b1eff980e042","js/moderator.en.js":"7e128d888cd8","js/pseudomoderator.en.js":"c0a9a418b269","js/full-anon.en.js":"a2140bb67bb2","js/full.en.js":"870fe87f21d3","js/wmd.en.js":"d8ad7800aa43","js/mobile.en.js":"ad1e4d00b12f","js/help.en.js":"5492597a764b","js/tageditor.en.js":"0d89ad27157f","js/tageditornew.en.js":"f5b8800a5a2a","js/inline-tag-editing.en.js":"44477e14fb9d","js/revisions.en.js":"db7c23e85c0c","js/review.en.js":"b7e4f55d14cb","js/tagsuggestions.en.js":"ddb0e41afe26","js/post-validation.en.js":"3a40f0cca098","js/explore-qlist.en.js":"5c7424c271ef","js/events.en.js":"18a4a8bccbed","js/keyboard-shortcuts.en.js":"699057cf342b","js/adops.en.js":"22a9bd59b1e9","js/begin-edit-event.en.js":"3238dd301e69","js/stacks-polyfills.en.js":"62c10ade932a","js/snippet-javascript-codemirror.en.js":"df8b0f52aef9"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    <noscript id="noscript-css"><style>body,.top-bar{margin-top:1.9em}</style></noscript>
+    <script async="" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/full-anon.en.js.download"></script><link rel="preload" href="./php - How to preview an image before and after upload_ - Stack Overflow_files/f.txt" as="script"><script type="text/javascript" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/f.txt"></script><link rel="preload" href="./php - How to preview an image before and after upload_ - Stack Overflow_files/f(1).txt" as="script"><script type="text/javascript" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/f(1).txt"></script><script src="./php - How to preview an image before and after upload_ - Stack Overflow_files/pubads_impl_2019053001.js.download" async=""></script><script async="" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/post-validation.en.js.download"></script><script async="" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/prettify-full.en.js.download"></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-33/html/container.html"><link rel="stylesheet" href="./php - How to preview an image before and after upload_ - Stack Overflow_files/clc.min.css" type="text/css"></head>
+        <body class="question-page unified-theme">
+    <div id="notify-container"></div>
+    <div id="custom-header"></div>
+
+
+
+
+<header class="top-bar js-top-bar top-bar__network _fixed">
+    <div class="-container">
+        <div class="-main">
+                <a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" class="left-sidebar-toggle p0 ai-center jc-center js-left-sidebar-toggle"><span class="ps-relative"></span></a>
+                                <a href="https://stackoverflow.com/" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:2, destination:8})">
+                        <span class="-img _glyph">Stack Overflow</span>
+                    </a>
+
+
+
+        </div>
+
+            <form id="search" action="https://stackoverflow.com/search" method="get" class="searchbar js-searchbar " autocomplete="off" role="search">
+                    <div class="ps-relative">
+                        <input name="q" type="text" placeholder="Search…" value="" autocomplete="off" maxlength="240" class="s-input js-search-field ">
+                        <button type="submit" aria-label="Search…" class="s-btn s-btn__primary s-btn__icon btn-topbar-primary js-search-submit"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M18 16.5l-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5zM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0z"></path></svg></button>
+                    </div>
+            </form>
+
+        
+
+
+
+
+
+<ol class="-secondary js-secondary-topbar-links drop-icons-responsively user-logged-out the-js-is-handling-responsiveness">
+        <li class="-item searchbar-trigger js-searchbar-trigger"><a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" class="-link"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M18 16.5l-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5zM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0z"></path></svg></a></li>
+            <li class="-item inbox-button-item" data-remove-order="1">
+        <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages">
+            <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewBox="0 0 20 18"><path d="M4.63 1h10.56a2 2 0 0 1 1.94 1.35L20 10.79V15a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-4.21l2.78-8.44c.25-.8 1-1.36 1.85-1.35zm8.28 12l2-2h2.95l-2.44-7.32a1 1 0 0 0-.95-.68H5.35a1 1 0 0 0-.95.68L1.96 11h2.95l2 2h6z"></path></svg>
+            <span class="indicator-badge js-unread-count _important" style="display: none;"></span>
+        </a>
+    </li>
+    <li class="-item achievements-button-item" data-remove-order="2">
+        <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive">
+            <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"></path></svg>
+            <span class="indicator-badge js-unread-count _positive" style="display: none;"></span>
+        </a>
+    </li>
+
+    <li class="-item help-button-item"><a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" class="-link js-help-button" title="Help Center and other resources">
+        <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8c-.3.34-.65.65-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66.4-.49.88-.9 1.43-1.22.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"></path></svg>
+    </a></li>
+
+    <li class="-item site-switcher-item">
+        <a href="https://stackexchange.com/" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 175 Stack Exchange sites">
+            <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zm16-7H1v4h16V6z"></path></svg>
+        </a>
+    </li>
+
+            <li class="-ctas">
+                        <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f16207575%2fhow-to-preview-an-image-before-and-after-upload" class="login-link s-btn btn-topbar-clear py8" rel="nofollow">Log In</a>
+                        <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link s-btn s-btn__primary py8 btn-topbar-primary" rel="nofollow" data-ga="[&quot;sign up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a>
+
+            </li>
+
+    <li class="-dialog-container js-topbar-dialog-corral">
+
+
+    <div class="topbar-dialog siteSwitcher-dialog dno">
+        <div class="header">
+            <h3><a href="https://stackoverflow.com/">current community</a>
+            </h3>
+        </div>
+        <div class="modal-content current-site-container">
+            <ul class="current-site">
+                    <li class="grid">
+                            <div class="fl1">
+            <a href="https://stackoverflow.com/" class="current-site-link site-link js-gps-track grid gs8 gsx" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })">
+        <div class="favicon favicon-stackoverflow site-icon grid--cell" title="Stack Overflow"></div>
+        <span class="grid--cell fl1">
+            Stack Overflow
+        </span>
+    </a>
+
+    </div>
+    <div class="related-links">
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a>
+                    <a href="https://chat.stackoverflow.com/" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a>
+            </div>
+
+                    </li>
+                    <li class="related-site grid">
+                            <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                            <a href="https://meta.stackoverflow.com/" class="site-link js-gps-track grid gs8 gsx" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })">
+        <div class="favicon favicon-stackoverflowmeta site-icon grid--cell" title="Meta Stack Overflow"></div>
+        <span class="grid--cell fl1">
+            Meta Stack Overflow
+        </span>
+    </a>
+
+                    </li>
+            </ul>
+        </div>
+
+        <div class="header" id="your-communities-header">
+            <h3>
+your communities            </h3>
+
+        </div>
+        <div class="modal-content" id="your-communities-section">
+
+                <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f16207575%2fhow-to-preview-an-image-before-and-after-upload" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list.
+                </div>
+        </div>
+
+        <div class="header">
+            <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a>
+            </h3>
+            <a href="https://stackoverflow.blog/" class="fr">company blog</a>
+        </div>
+        <div class="modal-content">
+                <div class="child-content"></div>
+        </div>        
+    </div>
+            <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="https://stackoverflow.com/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                        <li>
+                            <a href="https://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                                Meta
+                                <span class="item-summary">
+                                    Discuss the workings and policies of this site
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                                About Us
+                                <span class="item-summary">
+                                    Learn more about Stack Overflow the company
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                                Business
+                                <span class="item-summary">
+                                    Learn more about hiring developers or posting ads with us
+                                </span>
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+                    <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
+                <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm"></div>
+            </div>
+    </li>
+</ol>
+
+    </div>
+</header>
+    <div id="js-gdpr-consent-banner" class="p16 bg-black-700 ff-sans fc-white ps-fixed b0 l0 r0 z-banner" role="banner" aria-hidden="false">
+        <div class="wmx8 mx-auto grid jc-center" role="alertdialog" aria-describedby="notice-message">
+            <div class="grid--cell mr12" aria-label="notice-message">
+                <p class="mb0 lh-lg">
+                    By using our site, you acknowledge that you have read and understand our <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/cookie-policy">Cookie Policy</a>, <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/privacy-policy">Privacy Policy</a>, and our <a class="s-link s-link__inherit td-underline fc-white" target="_blank" href="https://stackoverflow.com/legal/terms-of-service/public">Terms of Service</a>.
+                </p>
+            </div>
+            <a class="grid--cell fc-white js-notice-close" aria-label="notice-dismiss">
+                <svg aria-hidden="true" class="svg-icon m0 iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9 15 4.41z"></path></svg>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        StackExchange.ready(function () { StackExchange.topbar.init({ observeSize: true }); });
+        StackExchange.scrollPadding.setPaddingTop(50, 10);     </script>
+
+
+
+
+
+
+    <div class="container">
+
+
+
+
+
+<div id="left-sidebar" data-is-here-when="md lg" class="left-sidebar js-pinned-left-sidebar">
+    <div class="left-sidebar--sticky-container js-sticky-leftnav">
+            <nav role="navigation">
+                <ol class="nav-links">
+                    <li>    </li><li>
+        <a href="https://stackoverflow.com/" class="pl8 js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:8})">
+Home        </a>
+    </li>
+
+                    <li>
+                        <ol class="nav-links">
+                                <li class="fs-fine tt-uppercase ml8 mt16 mb4 fc-light">Public</li>
+                                <li class=" youarehere">
+        <a id="nav-questions" href="https://stackoverflow.com/questions" class="pl8 js-gps-track nav-links--link -link__with-icon" data-gps-track="top_nav.click({is_current:true, location:2, destination:1})">
+<svg aria-hidden="true" class="svg-icon iconGlobe" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zM8 15.32a6.4 6.4 0 0 1-5.23-7.75L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.4 6.4 0 0 1 2.32 10.24v.01z"></path></svg>                <span class="-link--channel-name">Stack Overflow</span>
+        </a>
+    </li>
+
+    <li>
+        <a id="nav-tags" href="https://stackoverflow.com/tags" class=" js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:2})">
+Tags        </a>
+    </li>
+    <li>
+        <a id="nav-users" href="https://stackoverflow.com/users" class=" js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:3})">
+Users        </a>
+    </li>
+    <li>
+        <a id="nav-jobs" href="https://stackoverflow.com/jobs?med=site-ui&amp;ref=jobs-tab" class=" js-gps-track nav-links--link" data-gps-track="top_nav.click({is_current:false, location:2, destination:6})">
+Jobs        </a>
+    </li>
+                                                    </ol>
+                    </li>
+                        <li>
+                            <ol class="nav-links">
+                                        <li class="p6">
+                                            <div class="ba bc-black-2 bar-sm p16 grid fd-column ps-relative overflow-hidden">
+                                                <strong class="grid--cell">Teams</strong>
+                                                <span class="grid--cell mt2 fs-caption fc-medium">Q&amp;A for work </span>
+                                                <a href="https://stackoverflow.com/teams" class="js-gps-track s-btn s-btn__outlined grid--cell mt12" data-gps-track="teams.create.left-sidenav.click({ CampaignType: None})" data-ga="[&quot;teams traffic&quot;,&quot;left nav cta&quot;,&quot;stackoverflow.com/teams&quot;,null,{&quot;dimension4&quot;:&quot;teams&quot;}]">
+                                                    Learn More
+                                                </a>
+
+                                                <div class="ps-absolute t4 rn6">
+                                                    <svg width="53" height="49" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49 11l.2 31H18.9L9 49v-7H4V8h31" fill="#CCEAFF"></path><path d="M44.5 19v-.3l-.2-.1-18-13-.1-.1H.5v33h4V46l.8-.6 9.9-6.9h29.3V19z" stroke="#1060E1" stroke-miterlimit="10"></path><path d="M31 2l6-1.5 7 2V38H14.9L5 45v-7H1V6h25l5-4z" fill="#fff"></path><path d="M7 16.5h13m-13 6h14m-14 6h18" stroke="#1060E1" stroke-miterlimit="10"></path><path d="M39 30a14 14 0 1 0 0-28 14 14 0 0 0 0 28z" fill="#FFB935"></path><path d="M50.5 14a13.5 13.5 0 1 1-27 0 13.5 13.5 0 0 1 27 0z" stroke="#F48024" stroke-miterlimit="10"></path><path d="M32.5 21.5v-8h9v8h-9zm2-9.5V9.3A2.5 2.5 0 0 1 37 6.8a2.5 2.5 0 0 1 2.5 2.5V12h-5zm2 3v2m1-2v2" stroke="#fff" stroke-miterlimit="10"></path></svg>
+                                                </div>
+                                            </div>
+                                        </li>
+                            </ol>
+                        </li>
+                </ol>
+            </nav>
+    </div>
+</div>
+
+
+        <div id="content" class="snippet-hidden">
+
+
+            
+
+
+<div itemprop="mainEntity" itemscope="" itemtype="http://schema.org/Question">
+    <link itemprop="image" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+
+    <div class="inner-content clearfix">
+    
+    
+
+            <div id="question-header" class="grid">
+                    <h1 itemprop="name" class="grid--cell fs-headline1 fl1 ow-break-word"><a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload" class="question-hyperlink">How to preview an image before and after upload?</a></h1>
+
+            
+<div class="pl8 aside-cta grid--cell print:d-none" role="navigation" aria-label="ask new question">
+        <a href="https://stackoverflow.com/questions/ask" class="d-inline-flex ai-center ws-nowrap s-btn s-btn__primary">
+            Ask Question
+        </a>
+</div>
+
+        </div>
+            <div id="mainbar" role="main" aria-label="question and answers">
+
+            
+
+<div class="question" data-questionid="16207575" id="question">
+
+    <style>.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{                height:90px;width:728px;box-sizing:border-box;
+}</style>
+        <div id="dfp-tlb" class="everyonelovesstackoverflow everyoneloves__top-leaderboard" data-google-query-id="CJfC64DV2OICFdi3Gwod81QDkA" data-clc-prefilled="true" data-clc-ready="true"><div id="google_ads_iframe_/248424177/stackoverflow.com/lb/question-pages_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/248424177/stackoverflow.com/lb/question-pages_0" title="3rd party ad content" name="google_ads_iframe_/248424177/stackoverflow.com/lb/question-pages_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/saved_resource.html"></iframe></div></div>
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="js-voting-container grid fd-column ai-stretch gs4 fc-black-200" data-post-id="16207575">
+        <button class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer" title="This question shows research effort; it is useful and clear" aria-pressed="false" aria-label="up vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowUpLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 26h32L18 10 2 26z"></path></svg></button>
+        <div class="js-vote-count grid--cell fc-black-500 fs-title grid fd-column ai-center" itemprop="upvoteCount" data-value="20">20</div>
+        <button class="js-vote-down-btn grid--cell s-btn s-btn__unset c-pointer" title="This question does not show any research effort; it is unclear or not useful" aria-pressed="false" aria-label="down vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowDownLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 10h32L18 26 2 10z"></path></svg></button>
+
+        <button class="js-favorite-btn s-btn s-btn__unset c-pointer py8" aria-pressed="false" aria-label="favorite (14)" data-selected-classes="fc-yellow-600">
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewBox="0 0 18 18"><path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16L9 12.65z"></path></svg>
+            <div class="js-favorite-count mt8" data-value="14">14</div>
+        </button>
+
+
+</div>
+
+            </div>
+
+            
+<div class="postcell post-layout--right">
+    
+    <div class="post-text" itemprop="text">
+
+<p>I am going to preview an image or photo in a form, but it doesn't work and the HTML code looks like this as below:</p>
+
+<pre class="lang-php prettyprint prettyprinted" style=""><code><span class="tag">&lt;form</span><span class="pln"> </span><span class="atn">action</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="atn">method</span><span class="pun">=</span><span class="atv">"post"</span><span class="pln"> </span><span class="atn">enctype</span><span class="pun">=</span><span class="atv">"multipart/form-data"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"personal_image"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"newHotnessForm"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;p&gt;&lt;label</span><span class="pln"> </span><span class="atn">for</span><span class="pun">=</span><span class="atv">"image"</span><span class="tag">&gt;</span><span class="pln">Upload Image:</span><span class="tag">&lt;/label&gt;</span><span class="pln">
+    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"file"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"imageUpload"</span><span class="tag">/&gt;&lt;/p&gt;</span><span class="pln">
+    </span><span class="tag">&lt;p&gt;&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"submit"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"button"</span><span class="tag">&gt;</span><span class="pln">Save</span><span class="tag">&lt;/button&gt;&lt;/p&gt;</span><span class="pln">
+        </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"preview"</span><span class="tag">&gt;</span><span class="pln">
+            </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">width</span><span class="pun">=</span><span class="atv">"160px"</span><span class="pln"> </span><span class="atn">height</span><span class="pun">=</span><span class="atv">"120px"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"profile pic.jpg"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"thumb"</span><span class="pln"> </span><span class="tag">/&gt;</span><span class="pln">
+        </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="tag">&lt;/form&gt;</span></code></pre>
+
+<p>and incorporated JS code/script below:</p>
+
+<pre class="lang-php prettyprint prettyprinted" style=""><code><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text/jaavascript"</span><span class="tag">&gt;</span><span class="pln">
+$(document).ready(function(){
+    var thumb=$('#thumb');
+    new AjaxUpload('imageUpload',{
+    action:$('newHotnessForm').attr('action'),
+    name:'image',
+    onSubmit:function(file,extension){
+        $('#preview').addClass('loading');
+    },
+    onComplete:function(file,response){
+        thumb.load(function(){
+            $('#preview').removeClass('loading');
+            thumb.unbind();
+        });
+        thumb.attr('src',response);
+    }
+    });
+});</span></code></pre>
+
+<p></p>
+
+<p>There are 2 main questions on my form:<br>
+1. Why doesn't the preview of the image or picture work?
+<br>2. How to paste the photo from the form when the save button is clicked, it will go/link to another PHP or PHP page that I created?</p>
+    </div>
+
+        <div class="post-taglist grid gs4 gsy fd-column">
+            <div class="grid ps-relative d-block">
+                <a href="https://stackoverflow.com/questions/tagged/php" class="post-tag js-gps-track" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="https://stackoverflow.com/questions/tagged/javascript" class="post-tag js-gps-track" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="https://stackoverflow.com/questions/tagged/jquery" class="post-tag js-gps-track" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a> <a href="https://stackoverflow.com/questions/tagged/html5" class="post-tag js-gps-track" title="show questions tagged &#39;html5&#39;" rel="tag">html5</a> 
+            </div>
+        </div>
+
+    <div class="mb0 ">
+        <div class="mt16 pt4 grid gs8 gsy fw-wrap jc-end ai-start">
+            <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/q/16207575" title="short permalink to this question" class="short-link" itemprop="url" id="link-post-16207575">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/16207575/edit" class="suggest-edit-post" title="">improve this question</a></div>
+            </div>
+
+                <div class="post-signature grid--cell">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/16207575/revisions" title="show all edits to this post">edited <span title="2019-05-17 15:44:26Z" class="relativetime">May 17 at 15:44</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/5840973/darshan-jain"><div class="gravatar-wrapper-32"><img src="./php - How to preview an image before and after upload_ - Stack Overflow_files/LtTD1.jpg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="https://stackoverflow.com/users/5840973/darshan-jain">Darshan Jain</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">93</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+        </div>
+    </div>
+</div>                </div>
+            <div class="post-signature owner grid--cell">
+<div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2013-04-25 06:08:56Z" class="relativetime">Apr 25 '13 at 6:08</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/2285295/jcchan"><div class="gravatar-wrapper-32"><img src="./php - How to preview an image before and after upload_ - Stack Overflow_files/c814be63573b3328af6d9a48c6434a4c" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+        <a href="https://stackoverflow.com/users/2285295/jcchan">JCChan</a><span class="d-none" itemprop="name">JCChan</span>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">190</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+    
+</div>
+                
+    <div class="post-layout--right">
+	    <div id="comments-16207575" class="comments js-comments-container " data-post-id="16207575">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+    <li id="comment-32023068" class="comment js-comment " data-comment-id="32023068">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score js-comment-edit-hide">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body js-comment-edit-hide">
+                
+                <span class="comment-copy">possible duplicate of <a href="http://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded">Preview an image before it is uploaded</a></span>
+                
+                    –&nbsp;<a href="https://stackoverflow.com/users/3736926/kakitori" title="606 reputation" class="comment-user">Kakitori</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#comment32023068_16207575"><span title="2014-01-21 11:06:17Z" class="relativetime-clean">Jan 21 '14 at 11:06</span></a></span>
+                                                            </div>
+        </div>
+    </li>
+            </ul>
+	    </div>
+
+        <div id="comments-link-16207575" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" onclick=""></a>
+        </div>         
+    </div>        </div>
+</div>
+
+
+<div id="dfp-isb" class="everyonelovesstackoverflow everyoneloves__inline-sidebar" style="min-height: auto; height: auto; display: none;"></div>
+            <div id="answers">
+
+                <a name="tab-top"></a>
+                <div id="answers-header">
+                    <div class="subheader answers-subheader">
+                        <h2 data-answercount="4">
+                                4 Answers
+                            <span style="display:none;" itemprop="answerCount">4</span>
+                        </h2>
+                        <div>
+                            
+<div id="tabs">
+        <a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload?answertab=active#tab-top" data-nav-xhref="" title="Answers with the latest activity first" data-value="active" data-shortcut="A">
+            active</a>
+        <a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload?answertab=oldest#tab-top" data-nav-xhref="" title="Answers in the order they were provided" data-value="oldest" data-shortcut="O">
+            oldest</a>
+        <a class="youarehere is-selected " href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload?answertab=votes#tab-top" data-nav-xhref="" title="Answers with the highest score first" data-value="votes" data-shortcut="V">
+            votes</a>
+    </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+  
+<a name="16207641"></a>
+<div id="answer-16207641" class="answer accepted-answer" data-answerid="16207641" itemprop="acceptedAnswer" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="js-voting-container grid fd-column ai-stretch gs4 fc-black-200" data-post-id="16207641">
+        <button class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer" title="This answer is useful" aria-pressed="false" aria-label="up vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowUpLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 26h32L18 10 2 26z"></path></svg></button>
+        <div class="js-vote-count grid--cell fc-black-500 fs-title grid fd-column ai-center" itemprop="upvoteCount" data-value="69">69</div>
+        <button class="js-vote-down-btn grid--cell s-btn s-btn__unset c-pointer" title="This answer is not useful" aria-pressed="false" aria-label="down vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowDownLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 10h32L18 26 2 10z"></path></svg></button>
+
+
+                <div class="js-accepted-answer-indicator grid--item fc-green-500 ta-center p4" title="loading when this answer was accepted..." tabindex="0" role="note" aria-label="accepted"><svg aria-hidden="true" class="svg-icon iconCheckmarkLg" width="36" height="36" viewBox="0 0 36 36"><path d="M6 14l8 8L30 6v8L14 30l-8-8v-8z"></path></svg></div>
+
+</div>
+
+            </div>
+            
+
+<div class="answercell post-layout--right">
+    
+    <div class="post-text" itemprop="text">
+<p>Try this: (For Preview)</p>
+
+<pre class="lang-php prettyprint prettyprinted" style=""><code><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text/javascript"</span><span class="tag">&gt;</span><span class="pln">
+        </span><span class="kwd">function</span><span class="pln"> readURL</span><span class="pun">(</span><span class="pln">input</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+            </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">input</span><span class="pun">.</span><span class="pln">files </span><span class="pun">&amp;&amp;</span><span class="pln"> input</span><span class="pun">.</span><span class="pln">files</span><span class="pun">[</span><span class="lit">0</span><span class="pun">])</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                </span><span class="kwd">var</span><span class="pln"> reader </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">FileReader</span><span class="pun">();</span><span class="pln">
+
+                reader</span><span class="pun">.</span><span class="pln">onload </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">function</span><span class="pln"> </span><span class="pun">(</span><span class="pln">e</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                    $</span><span class="pun">(</span><span class="str">'#blah'</span><span class="pun">).</span><span class="pln">attr</span><span class="pun">(</span><span class="str">'src'</span><span class="pun">,</span><span class="pln"> e</span><span class="pun">.</span><span class="pln">target</span><span class="pun">.</span><span class="pln">result</span><span class="pun">);</span><span class="pln">
+                </span><span class="pun">}</span><span class="pln">
+
+                reader</span><span class="pun">.</span><span class="pln">readAsDataURL</span><span class="pun">(</span><span class="pln">input</span><span class="pun">.</span><span class="pln">files</span><span class="pun">[</span><span class="lit">0</span><span class="pun">]);</span><span class="pln">
+            </span><span class="pun">}</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+    </span><span class="tag">&lt;/script&gt;</span><span class="pln">
+
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+    </span><span class="tag">&lt;form</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"form1"</span><span class="pln"> </span><span class="atn">runat</span><span class="pun">=</span><span class="atv">"server"</span><span class="tag">&gt;</span><span class="pln">
+        </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">'file'</span><span class="pln"> </span><span class="atn">onchange</span><span class="pun">=</span><span class="atv">"</span><span class="pln">readURL</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">);</span><span class="atv">"</span><span class="pln"> </span><span class="tag">/&gt;</span><span class="pln">
+        </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"blah"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"#"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"your image"</span><span class="pln"> </span><span class="tag">/&gt;</span><span class="pln">
+    </span><span class="tag">&lt;/form&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span></code></pre>
+
+<p>Working Demo <a href="http://jsbin.com/uboqu3/1/edit">here&gt;</a></p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+        <time itemprop="dateCreated" datetime="2013-04-25T06:13:00"></time>
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/16207641" title="short permalink to this answer" class="short-link" itemprop="url" id="link-post-16207641">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/16207641/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2013-04-25 06:13:00Z" class="relativetime">Apr 25 '13 at 6:13</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/1578298/vijaya-pandey"><div class="gravatar-wrapper-32"><img src="./php - How to preview an image before and after upload_ - Stack Overflow_files/65ffa14455b03b267fae02d66604318c" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+        <a href="https://stackoverflow.com/users/1578298/vijaya-pandey">Vijaya Pandey</a><span class="d-none" itemprop="name">Vijaya Pandey</span>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">3,458</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="24 silver badges"><span class="badge2"></span><span class="badgecount">24</span></span><span title="49 bronze badges"><span class="badge3"></span><span class="badgecount">49</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+    
+</div>
+
+    
+    <div class="post-layout--right">
+	    <div id="comments-16207641" class="comments js-comments-container " data-post-id="16207641">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+    <li id="comment-23176847" class="comment js-comment " data-comment-id="23176847">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score js-comment-edit-hide">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body js-comment-edit-hide">
+                
+                <span class="comment-copy">Your solution is really work,but is it will work where the pic or image that I uploaded that link to another page under the code like <code>&lt;form id="form1" runat="server" action='page.php'&gt;</code>?</span>
+                
+                    –&nbsp;<a href="https://stackoverflow.com/users/2285295/jcchan" title="190 reputation" class="comment-user owner">JCChan</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#comment23176847_16207641"><span title="2013-04-25 06:34:23Z" class="relativetime-clean">Apr 25 '13 at 6:34</span></a></span>
+                        <span title="this comment was edited 5 times">
+                            <svg aria-hidden="true" class="svg-icon va-text-bottom o50 iconPencilSm" width="14" height="14" viewBox="0 0 14 14"><path d="M11.1 1.71l1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0zM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88z"></path></svg>
+                        </span>
+                                                            </div>
+        </div>
+    </li>
+    <li id="comment-31702348" class="comment js-comment " data-comment-id="31702348">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score js-comment-edit-hide">
+                    <span title="number of &#39;useful comment&#39; votes received" class="cool">2</span>
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body js-comment-edit-hide">
+                
+                <span class="comment-copy">This doesnt work in ie... any solution for that?</span>
+                
+                    –&nbsp;<a href="https://stackoverflow.com/users/2790983/uday-hiwarale" title="2,287 reputation" class="comment-user">Uday Hiwarale</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#comment31702348_16207641"><span title="2014-01-12 18:44:00Z" class="relativetime-clean">Jan 12 '14 at 18:44</span></a></span>
+                                                            </div>
+        </div>
+    </li>
+    <li id="comment-81181809" class="comment js-comment " data-comment-id="81181809">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score js-comment-edit-hide">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body js-comment-edit-hide">
+                
+                <span class="comment-copy">@meVeekay, can we set maximum number of image in your above solution ?</span>
+                
+                    –&nbsp;<a href="https://stackoverflow.com/users/7186739/super-model" title="895 reputation" class="comment-user">Super Model</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#comment81181809_16207641"><span title="2017-11-04 21:49:28Z" class="relativetime-clean">Nov 4 '17 at 21:49</span></a></span>
+                                                            </div>
+        </div>
+    </li>
+    <li id="comment-87444747" class="comment js-comment " data-comment-id="87444747">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score js-comment-edit-hide">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body js-comment-edit-hide">
+                
+                <span class="comment-copy">am using multiple input, how can it be done with above code</span>
+                
+                    –&nbsp;<a href="https://stackoverflow.com/users/3836908/sanoj-lawrence" title="1,314 reputation" class="comment-user">sanoj lawrence</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#comment87444747_16207641"><span title="2018-05-07 12:15:54Z" class="relativetime-clean">May 7 '18 at 12:15</span></a></span>
+                                                            </div>
+        </div>
+    </li>
+            </ul>
+	    </div>
+
+        <div id="comments-link-16207641" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+<div id="dfp-mlb" class="everyonelovesstackoverflow everyoneloves__mid-leaderboard" data-google-query-id="CJjC64DV2OICFdi3Gwod81QDkA" data-clc-prefilled="true" data-clc-ready="true"><div id="google_ads_iframe_/248424177/stackoverflow.com/mlb/question-pages_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/248424177/stackoverflow.com/mlb/question-pages_0" title="3rd party ad content" name="google_ads_iframe_/248424177/stackoverflow.com/mlb/question-pages_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" data-google-container-id="2" style="border: 0px; vertical-align: bottom;" data-load-complete="true" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/saved_resource(1).html"></iframe></div></div>
+  
+<a name="30642470"></a>
+<div id="answer-30642470" class="answer" data-answerid="30642470" itemprop="suggestedAnswer" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="js-voting-container grid fd-column ai-stretch gs4 fc-black-200" data-post-id="30642470">
+        <button class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer" title="This answer is useful" aria-pressed="false" aria-label="up vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowUpLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 26h32L18 10 2 26z"></path></svg></button>
+        <div class="js-vote-count grid--cell fc-black-500 fs-title grid fd-column ai-center" itemprop="upvoteCount" data-value="6">6</div>
+        <button class="js-vote-down-btn grid--cell s-btn s-btn__unset c-pointer" title="This answer is not useful" aria-pressed="false" aria-label="down vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowDownLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 10h32L18 26 2 10z"></path></svg></button>
+
+
+                <div class="js-accepted-answer-indicator grid--item fc-green-500 ta-center p4 d-none" title="loading when this answer was accepted..." tabindex="0" role="note" aria-label="accepted"><svg aria-hidden="true" class="svg-icon iconCheckmarkLg" width="36" height="36" viewBox="0 0 36 36"><path d="M6 14l8 8L30 6v8L14 30l-8-8v-8z"></path></svg></div>
+
+</div>
+
+            </div>
+            
+
+<div class="answercell post-layout--right">
+    
+    <div class="post-text" itemprop="text">
+<p>meVeekay's answer was good and am just making it more improvised by doing 2 things.</p>
+
+<ol>
+<li><p>Check whether browser supports HTML5 FileReader() or  not.</p></li>
+<li><p>Allow only image file to be upload by checking its extension.</p></li>
+</ol>
+
+<p><strong>HTML :</strong></p>
+
+<pre class="lang-php prettyprint prettyprinted" style=""><code><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"wrapper"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"fileUpload"</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"file"</span><span class="pln"> </span><span class="tag">/&gt;</span><span class="pln">
+    </span><span class="tag">&lt;br</span><span class="pln"> </span><span class="tag">/&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"image-holder"</span><span class="tag">&gt;&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span><span class="pln"> </span></code></pre>
+
+<p><strong>jQuery :</strong></p>
+
+<pre class="lang-php prettyprint prettyprinted" style=""><code><span class="pln">$</span><span class="pun">(</span><span class="str">"#fileUpload"</span><span class="pun">).</span><span class="pln">on</span><span class="pun">(</span><span class="str">'change'</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">function</span><span class="pln"> </span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+
+    </span><span class="kwd">var</span><span class="pln"> imgPath </span><span class="pun">=</span><span class="pln"> $</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">)[</span><span class="lit">0</span><span class="pun">].</span><span class="pln">value</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">var</span><span class="pln"> extn </span><span class="pun">=</span><span class="pln"> imgPath</span><span class="pun">.</span><span class="pln">substring</span><span class="pun">(</span><span class="pln">imgPath</span><span class="pun">.</span><span class="pln">lastIndexOf</span><span class="pun">(</span><span class="str">'.'</span><span class="pun">)</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="lit">1</span><span class="pun">).</span><span class="pln">toLowerCase</span><span class="pun">();</span><span class="pln">
+
+    </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">extn </span><span class="pun">==</span><span class="pln"> </span><span class="str">"gif"</span><span class="pln"> </span><span class="pun">||</span><span class="pln"> extn </span><span class="pun">==</span><span class="pln"> </span><span class="str">"png"</span><span class="pln"> </span><span class="pun">||</span><span class="pln"> extn </span><span class="pun">==</span><span class="pln"> </span><span class="str">"jpg"</span><span class="pln"> </span><span class="pun">||</span><span class="pln"> extn </span><span class="pun">==</span><span class="pln"> </span><span class="str">"jpeg"</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="kwd">typeof</span><span class="pln"> </span><span class="pun">(</span><span class="typ">FileReader</span><span class="pun">)</span><span class="pln"> </span><span class="pun">!=</span><span class="pln"> </span><span class="str">"undefined"</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+
+            </span><span class="kwd">var</span><span class="pln"> image_holder </span><span class="pun">=</span><span class="pln"> $</span><span class="pun">(</span><span class="str">"#image-holder"</span><span class="pun">);</span><span class="pln">
+            image_holder</span><span class="pun">.</span><span class="pln">empty</span><span class="pun">();</span><span class="pln">
+
+            </span><span class="kwd">var</span><span class="pln"> reader </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">FileReader</span><span class="pun">();</span><span class="pln">
+            reader</span><span class="pun">.</span><span class="pln">onload </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">function</span><span class="pln"> </span><span class="pun">(</span><span class="pln">e</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                $</span><span class="pun">(</span><span class="str">"&lt;img /&gt;"</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+                    </span><span class="str">"src"</span><span class="pun">:</span><span class="pln"> e</span><span class="pun">.</span><span class="pln">target</span><span class="pun">.</span><span class="pln">result</span><span class="pun">,</span><span class="pln">
+                        </span><span class="str">"class"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"thumb-image"</span><span class="pln">
+                </span><span class="pun">}).</span><span class="pln">appendTo</span><span class="pun">(</span><span class="pln">image_holder</span><span class="pun">);</span><span class="pln">
+
+            </span><span class="pun">}</span><span class="pln">
+            image_holder</span><span class="pun">.</span><span class="pln">show</span><span class="pun">();</span><span class="pln">
+            reader</span><span class="pun">.</span><span class="pln">readAsDataURL</span><span class="pun">(</span><span class="pln">$</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">)[</span><span class="lit">0</span><span class="pun">].</span><span class="pln">files</span><span class="pun">[</span><span class="lit">0</span><span class="pun">]);</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln"> </span><span class="kwd">else</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+            alert</span><span class="pun">(</span><span class="str">"This browser does not support FileReader."</span><span class="pun">);</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln"> </span><span class="kwd">else</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        alert</span><span class="pun">(</span><span class="str">"Pls select only images"</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">});</span></code></pre>
+
+<p>For detail understanding of FileReader() </p>
+
+<p>Check this <strong><a href="http://codepedia.info/2015/06/html5-filereader-preview-image-show-thumbnail-image-before-uploading-on-server-in-jquery/" rel="noreferrer">Article : Using FileReader() preview image before uploading.</a></strong></p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+        <time itemprop="dateCreated" datetime="2015-06-04T11:18:29"></time>
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/30642470" title="short permalink to this answer" class="short-link" itemprop="url" id="link-post-30642470">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/30642470/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2015-06-04 11:18:29Z" class="relativetime">Jun 4 '15 at 11:18</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/1192188/satinder-singh"><div class="gravatar-wrapper-32"><img src="./php - How to preview an image before and after upload_ - Stack Overflow_files/a0f38768eff5a0853ef986481a9bba30.jpeg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+        <a href="https://stackoverflow.com/users/1192188/satinder-singh">Satinder singh</a><span class="d-none" itemprop="name">Satinder singh</span>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">7,626</span><span title="15 gold badges"><span class="badge1"></span><span class="badgecount">15</span></span><span title="43 silver badges"><span class="badge2"></span><span class="badgecount">43</span></span><span title="87 bronze badges"><span class="badge3"></span><span class="badgecount">87</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+    
+</div>
+
+    
+    <div class="post-layout--right">
+	    <div id="comments-30642470" class="comments js-comments-container  dno" data-post-id="30642470">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+            </ul>
+	    </div>
+
+        <div id="comments-link-30642470" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+
+  
+<a name="16208088"></a>
+<div id="answer-16208088" class="answer" data-answerid="16208088" itemprop="suggestedAnswer" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="js-voting-container grid fd-column ai-stretch gs4 fc-black-200" data-post-id="16208088">
+        <button class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer" title="This answer is useful" aria-pressed="false" aria-label="up vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowUpLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 26h32L18 10 2 26z"></path></svg></button>
+        <div class="js-vote-count grid--cell fc-black-500 fs-title grid fd-column ai-center" itemprop="upvoteCount" data-value="2">2</div>
+        <button class="js-vote-down-btn grid--cell s-btn s-btn__unset c-pointer" title="This answer is not useful" aria-pressed="false" aria-label="down vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowDownLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 10h32L18 26 2 10z"></path></svg></button>
+
+
+                <div class="js-accepted-answer-indicator grid--item fc-green-500 ta-center p4 d-none" title="loading when this answer was accepted..." tabindex="0" role="note" aria-label="accepted"><svg aria-hidden="true" class="svg-icon iconCheckmarkLg" width="36" height="36" viewBox="0 0 36 36"><path d="M6 14l8 8L30 6v8L14 30l-8-8v-8z"></path></svg></div>
+
+</div>
+
+            </div>
+            
+
+<div class="answercell post-layout--right">
+    
+    <div class="post-text" itemprop="text">
+<pre class="lang-php prettyprint prettyprinted" style=""><code><span class="pln">                    </span><span class="com">#######################</span><span class="pln">
+                    </span><span class="com">###  the img page   ###</span><span class="pln">
+                    </span><span class="com">#######################</span><span class="pln">
+
+
+</span><span class="pun">&lt;</span><span class="pln">script src</span><span class="pun">=</span><span class="str">"http://code.jquery.com/jquery-1.9.1.min.js"</span><span class="pun">&gt;&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span><span class="pln">
+  </span><span class="pun">&lt;</span><span class="pln">script src</span><span class="pun">=</span><span class="str">"http://malsup.github.com/jquery.form.js"</span><span class="pun">&gt;&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span><span class="pln">
+</span><span class="pun">&lt;</span><span class="pln">script type</span><span class="pun">=</span><span class="str">"text/javascript"</span><span class="pun">&gt;</span><span class="pln">
+$</span><span class="pun">(</span><span class="pln">document</span><span class="pun">).</span><span class="pln">ready</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(){</span><span class="pln">
+$</span><span class="pun">(</span><span class="str">'#f'</span><span class="pun">).</span><span class="pln">live</span><span class="pun">(</span><span class="str">'change'</span><span class="pln"> </span><span class="pun">,</span><span class="kwd">function</span><span class="pun">(){</span><span class="pln">
+           $</span><span class="pun">(</span><span class="str">'#fo'</span><span class="pun">).</span><span class="pln">ajaxForm</span><span class="pun">({</span><span class="pln">target</span><span class="pun">:</span><span class="pln"> </span><span class="str">'#d'</span><span class="pun">}).</span><span class="pln">submit</span><span class="pun">();</span><span class="pln">
+                      </span><span class="pun">});</span><span class="pln">
+
+
+    </span><span class="pun">});</span><span class="pln">
+</span><span class="com">// });</span><span class="pln">
+</span><span class="pun">&lt;/</span><span class="pln">script</span><span class="pun">&gt;</span><span class="pln">
+</span><span class="pun">&lt;</span><span class="pln">form id</span><span class="pun">=</span><span class="str">"fo"</span><span class="pln"> name</span><span class="pun">=</span><span class="str">"fo"</span><span class="pln"> action</span><span class="pun">=</span><span class="str">"nextimg.php"</span><span class="pln"> enctype</span><span class="pun">=</span><span class="str">"multipart/form-data"</span><span class="pln"> method</span><span class="pun">=</span><span class="str">"post"</span><span class="pun">&gt;</span><span class="pln">
+ </span><span class="pun">&lt;</span><span class="pln">input type</span><span class="pun">=</span><span class="str">"file"</span><span class="pln"> name</span><span class="pun">=</span><span class="str">"f"</span><span class="pln"> id</span><span class="pun">=</span><span class="str">"f"</span><span class="pln"> value</span><span class="pun">=</span><span class="str">"start upload"</span><span class="pln"> </span><span class="pun">/&gt;</span><span class="pln">
+</span><span class="pun">&lt;</span><span class="pln">input type</span><span class="pun">=</span><span class="str">"submit"</span><span class="pln"> name</span><span class="pun">=</span><span class="str">"sub"</span><span class="pln"> value</span><span class="pun">=</span><span class="str">"upload"</span><span class="pun">/&gt;</span><span class="pln">
+</span><span class="pun">&lt;/</span><span class="pln">form</span><span class="pun">&gt;</span><span class="pln">
+</span><span class="pun">&lt;</span><span class="pln">div id</span><span class="pun">=</span><span class="str">"d"</span><span class="pun">&gt;&lt;/</span><span class="pln">div</span><span class="pun">&gt;</span><span class="pln">
+
+
+
+
+
+                    </span><span class="com">#############################</span><span class="pln">
+                    </span><span class="com">###    the nextimg page   ###</span><span class="pln">
+                    </span><span class="com">#############################</span><span class="pln">
+
+
+
+
+     </span><span class="pun">&lt;?</span><span class="pln">php
+
+     $name</span><span class="pun">=</span><span class="pln">$_FILES</span><span class="pun">[</span><span class="str">'f'</span><span class="pun">][</span><span class="str">'name'</span><span class="pun">];</span><span class="pln"> 
+     $tmp</span><span class="pun">=</span><span class="pln">$_FILES</span><span class="pun">[</span><span class="str">'f'</span><span class="pun">][</span><span class="str">'tmp_name'</span><span class="pun">];</span><span class="pln">
+     $new</span><span class="pun">=</span><span class="pln">time</span><span class="pun">().</span><span class="pln">$name</span><span class="pun">;</span><span class="pln">
+     $new</span><span class="pun">=</span><span class="str">"upload/"</span><span class="pun">.</span><span class="pln">$new</span><span class="pun">;</span><span class="pln">
+     move_uploaded_file</span><span class="pun">(</span><span class="pln">$tmp</span><span class="pun">,</span><span class="pln">$new</span><span class="pun">);</span><span class="pln">
+     </span><span class="kwd">if</span><span class="pun">(</span><span class="pln">$_FILES</span><span class="pun">[</span><span class="str">'f'</span><span class="pun">][</span><span class="str">'error'</span><span class="pun">]==</span><span class="lit">0</span><span class="pun">)</span><span class="pln">
+      </span><span class="pun">{</span><span class="pln">
+
+     </span><span class="pun">?&gt;</span><span class="pln">
+     </span><span class="str">&lt;h1&gt;</span><span class="pln">PREVIEW</span><span class="pun">&lt;</span><span class="str">/h1&gt;&lt;br /</span><span class="pun">&gt;&lt;</span><span class="pln">img src</span><span class="pun">=</span><span class="str">"&lt;?php echo $new;?&gt;"</span><span class="pln"> width</span><span class="pun">=</span><span class="str">"100"</span><span class="pln"> height</span><span class="pun">=</span><span class="str">"100"</span><span class="pun">/&gt;</span><span class="pln">
+     </span><span class="pun">&lt;?</span><span class="pln">php
+     </span><span class="pun">}</span><span class="pln">
+     </span><span class="pun">?&gt;</span></code></pre>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+        <time itemprop="dateCreated" datetime="2013-04-25T06:43:46"></time>
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/16208088" title="short permalink to this answer" class="short-link" itemprop="url" id="link-post-16208088">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/16208088/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="https://stackoverflow.com/posts/16208088/revisions" title="show all edits to this post">edited <span title="2013-04-25 07:18:15Z" class="relativetime">Apr 25 '13 at 7:18</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2013-04-25 06:43:46Z" class="relativetime">Apr 25 '13 at 6:43</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/2304608/ayan-sil"><div class="gravatar-wrapper-32"><img src="./php - How to preview an image before and after upload_ - Stack Overflow_files/Nn1IO.jpg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+        <a href="https://stackoverflow.com/users/2304608/ayan-sil">ayan sil</a><span class="d-none" itemprop="name">ayan sil</span>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">91</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+    
+</div>
+
+    
+    <div class="post-layout--right">
+	    <div id="comments-16208088" class="comments js-comments-container " data-post-id="16208088">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+    <li id="comment-23304460" class="comment js-comment " data-comment-id="23304460">
+        <div class="js-comment-actions comment-actions">
+            <div class="comment-score js-comment-edit-hide">
+            </div>
+                    </div>
+        <div class="comment-text js-comment-text-and-form">
+            <div class="comment-body js-comment-edit-hide">
+                
+                <span class="comment-copy">This is not really work on nextimg page,the image didn't displayed and previewed.Is it involved any database?if not,of course, my project is trend to run at client-server.</span>
+                
+                    –&nbsp;<a href="https://stackoverflow.com/users/2285295/jcchan" title="190 reputation" class="comment-user owner">JCChan</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#comment23304460_16208088"><span title="2013-04-29 15:36:00Z" class="relativetime-clean">Apr 29 '13 at 15:36</span></a></span>
+                                                            </div>
+        </div>
+    </li>
+            </ul>
+	    </div>
+
+        <div id="comments-link-16208088" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+
+  
+<a name="56481070"></a>
+<div id="answer-56481070" class="answer" data-answerid="56481070" itemprop="suggestedAnswer" itemscope="" itemtype="http://schema.org/Answer">
+    <div class="post-layout">
+            <div class="votecell post-layout--left">
+                
+
+<div class="js-voting-container grid fd-column ai-stretch gs4 fc-black-200" data-post-id="56481070">
+        <button class="js-vote-up-btn grid--cell s-btn s-btn__unset c-pointer" title="This answer is useful" aria-pressed="false" aria-label="up vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowUpLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 26h32L18 10 2 26z"></path></svg></button>
+        <div class="js-vote-count grid--cell fc-black-500 fs-title grid fd-column ai-center" itemprop="upvoteCount" data-value="0">0</div>
+        <button class="js-vote-down-btn grid--cell s-btn s-btn__unset c-pointer" title="This answer is not useful" aria-pressed="false" aria-label="down vote" data-selected-classes="fc-theme-primary"><svg aria-hidden="true" class="svg-icon m0 iconArrowDownLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 10h32L18 26 2 10z"></path></svg></button>
+
+
+                <div class="js-accepted-answer-indicator grid--item fc-green-500 ta-center p4 d-none" title="loading when this answer was accepted..." tabindex="0" role="note" aria-label="accepted"><svg aria-hidden="true" class="svg-icon iconCheckmarkLg" width="36" height="36" viewBox="0 0 36 36"><path d="M6 14l8 8L30 6v8L14 30l-8-8v-8z"></path></svg></div>
+
+</div>
+
+            </div>
+            
+
+<div class="answercell post-layout--right">
+    
+    <div class="post-text" itemprop="text">
+<p></p><div class="snippet" data-lang="js" data-hide="false" data-console="true" data-babel="false">
+<div class="snippet-code">
+<pre class="snippet-code-js lang-js prettyprint prettyprinted" style=""><code><span class="kwd">function</span><span class="pln"> readURL</span><span class="pun">(</span><span class="pln">input</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+  </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">input</span><span class="pun">.</span><span class="pln">files </span><span class="pun">&amp;&amp;</span><span class="pln"> input</span><span class="pun">.</span><span class="pln">files</span><span class="pun">[</span><span class="lit">0</span><span class="pun">])</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">var</span><span class="pln"> reader </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">FileReader</span><span class="pun">();</span><span class="pln">
+
+    reader</span><span class="pun">.</span><span class="pln">onload </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">e</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+      $</span><span class="pun">(</span><span class="str">'#ImdID'</span><span class="pun">).</span><span class="pln">attr</span><span class="pun">(</span><span class="str">'src'</span><span class="pun">,</span><span class="pln"> e</span><span class="pun">.</span><span class="pln">target</span><span class="pun">.</span><span class="pln">result</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">};</span><span class="pln">
+
+    reader</span><span class="pun">.</span><span class="pln">readAsDataURL</span><span class="pun">(</span><span class="pln">input</span><span class="pun">.</span><span class="pln">files</span><span class="pun">[</span><span class="lit">0</span><span class="pun">]);</span><span class="pln">
+  </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+<pre class="snippet-code-css lang-css prettyprint prettyprinted" style=""><code><span class="pln">img </span><span class="pun">{</span><span class="pln">
+  </span><span class="kwd">max-width</span><span class="pun">:</span><span class="pln"> </span><span class="lit">180px</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+<pre class="snippet-code-html lang-html prettyprint prettyprinted" style=""><code><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"</span><span class="tag">&gt;&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">'file'</span><span class="pln"> </span><span class="atn">onchange</span><span class="pun">=</span><span class="atv">"</span><span class="pln">readURL</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">);</span><span class="atv">"</span><span class="pln"> </span><span class="tag">/&gt;</span><span class="pln">
+</span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"ImdID"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"Image"</span><span class="pln"> </span><span class="tag">/&gt;</span></code></pre>
+<div class="snippet-result"><div class="snippet-ctas"><button type="button"><span class="icon-play-white _hover"></span><span> Run code snippet</span></button><input class="copySnippet btn-secondary" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="hideResults btn-clear" style="display: none;">Hide results</button><div class="popout-code"><a class="snippet-expand-link">Expand snippet</a></div></div><div class="snippet-result-code" style="display: none;"><iframe name="sif1" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit" frameborder="0" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/saved_resource(2).html"></iframe></div></div></div>
+</div>
+<p></p>
+    </div>
+    <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy">
+        <time itemprop="dateCreated" datetime="2019-06-06T15:47:27"></time>
+    <div class="grid--cell mr16" style="flex: 1 1 100px;">
+<div class="post-menu"><a href="https://stackoverflow.com/a/56481070" title="short permalink to this answer" class="short-link" itemprop="url" id="link-post-56481070">share</a><span class="lsep">|</span><a href="https://stackoverflow.com/posts/56481070/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </div>
+            
+
+
+    <div class="post-signature grid--cell fl0">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2019-06-06 15:47:27Z" class="relativetime">yesterday</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="https://stackoverflow.com/users/7156712/nischal-tyagi"><div class="gravatar-wrapper-32"><img src="./php - How to preview an image before and after upload_ - Stack Overflow_files/photo.jpg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+        <a href="https://stackoverflow.com/users/7156712/nischal-tyagi">Nischal Tyagi</a><span class="d-none" itemprop="name">Nischal Tyagi</span>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+</div>
+
+    </div>
+    </div>
+    
+</div>
+
+    
+    <div class="post-layout--right">
+	    <div id="comments-56481070" class="comments js-comments-container  dno" data-post-id="56481070">
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+            </ul>
+	    </div>
+
+        <div id="comments-link-56481070" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" onclick=""></a>
+        </div>         
+    </div>    </div>
+</div>
+                                    <a name="new-answer"></a>
+                        <form id="post-form" action="https://stackoverflow.com/questions/16207575/answer/submit" method="post" class="post-form">
+                            <input type="hidden" id="post-id" value="16207575">
+                            <input type="hidden" id="qualityBanWarningShown" name="qualityBanWarningShown" value="false">
+                            <input type="hidden" name="referrer" value="https://www.google.com/">
+                            <h2 class="space">
+                                Your Answer
+                            </h2>
+
+
+
+            <script>
+            StackExchange.ifUsing("editor", function () {
+                StackExchange.using("externalEditor", function () {
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.init();
+                    });
+                });
+            }, "code-snippets");
+        </script>
+    
+
+<script>
+    StackExchange.ready(function() {
+        var channelOptions = {
+            tags: "".split(" "),
+            id: "1"
+        };
+        initTagRenderer("".split(" "), "".split(" "), channelOptions);
+       
+        StackExchange.using("externalEditor", function() {
+                // Have to fire editor after snippets, if snippets enabled
+                if (StackExchange.settings.snippets.snippetsEnabled) {
+                    StackExchange.using("snippets", function() {
+                        createEditor();
+                    });
+                }
+                else {
+                    createEditor();
+                }
+            });
+
+            function createEditor() {
+                StackExchange.prepareEditor({
+                    heartbeatType: 'answer',
+                    autoActivateHeartbeat: false,
+                    convertImagesToLinks: true,
+                noModals: true,
+                showLowRepImageUploadWarning: true,
+                reputationToPostImages: 10,
+                bindNavPrevention: true,
+                postfix: "",
+                imageUploader: {
+                    brandingHtml: "Powered by \u003ca class=\"icon-imgur-white\" href=\"https://imgur.com/\"\u003e\u003c/a\u003e",
+                    contentPolicyHtml: "User contributions licensed under \u003ca href=\"https://creativecommons.org/licenses/by-sa/3.0/\"\u003ecc by-sa 3.0 with attribution required\u003c/a\u003e \u003ca href=\"https://stackoverflow.com/legal/content-policy\"\u003e(content policy)\u003c/a\u003e",
+                    allowUrls: true
+                },
+                    onDemand: true,
+                    discardSelector: ".discard-answer"
+                    ,immediatelyShowMarkdownHelp:true
+                    });
+                
+
+        }
+    });
+</script>
+
+
+<div id="post-editor" class="post-editor js-post-editor js-wz-element" data-wz-state="8,16,32,64,128,256">
+
+    <div class="ps-relative"> 
+        <div class="wmd-container mb8">
+            <div id="wmd-button-bar" class="wmd-button-bar btr-sm"><ul id="wmd-button-row" class="wmd-button-row"><li id="wmd-bold-button" class="wmd-button" style="left: 0px;"><span style="background-position: 0px -20px;"></span></li><li id="wmd-italic-button" class="wmd-button" style="left: 25px;"><span style="background-position: -20px -20px;"></span></li><li id="wmd-spacer1" class="wmd-spacer" style="left: 50px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-link-button" class="wmd-button" style="left: 75px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-quote-button" class="wmd-button" style="left: 100px;"><span style="background-position: -60px -20px;"></span></li><li id="wmd-code-button" class="wmd-button" style="left: 125px;"><span style="background-position: -80px -20px;"></span></li><li id="wmd-image-button" class="wmd-button" style="left: 150px;"><span style="background-position: -100px -20px;"></span></li><li id="wmd-spacer2" class="wmd-spacer" style="left: 175px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-olist-button" class="wmd-button" style="left: 200px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-ulist-button" class="wmd-button" style="left: 225px;"><span style="background-position: -140px -20px;"></span></li><li id="wmd-heading-button" class="wmd-button" style="left: 250px;"><span style="background-position: -160px -20px;"></span></li><li id="wmd-hr-button" class="wmd-button" style="left: 275px;"><span style="background-position: -180px -20px;"></span></li><li id="wmd-spacer3" class="wmd-spacer" style="left: 300px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-undo-button" class="wmd-button" style="left: 325px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-redo-button" class="wmd-button" style="left: 350px;"><span style="background-position: -220px -20px;"></span></li><li class="wmd-spacer wmd-spacer-max"></li></ul></div>
+                        <div class="js-stacks-validation">
+                <div class="ps-relative">
+                    <textarea id="wmd-input" class="wmd-input js-wz-element s-input bar0" name="post-text" cols="92" rows="15" tabindex="101" data-wz-state="256" data-min-length=""></textarea>
+                </div>
+                <div class="s-input-message mt4 d-none js-stacks-validation-message"></div>
+            </div>
+        </div>
+    </div>
+
+    <aside class="grid ai-start jc-space-between js-answer-help s-notice s-notice__warning pb0 pr4 pt4 mb8 d-none" role="status" aria-hidden="true">
+    <div class="grid--cell pt8">
+        <p>Thanks for contributing an answer to Stack Overflow!</p><ul><li>Please be sure to <em>answer the question</em>. Provide details and share your research!</li></ul><p>But <em>avoid</em> …</p><ul><li>Asking for help, clarification, or responding to other answers.</li><li>Making statements based on opinion; back them up with references or personal experience.</li></ul><p>To learn more, see our <a href="https://stackoverflow.com/help/how-to-answer">tips on writing great answers</a>.</p>
+    </div>
+    <button class="grid--cell js-answer-help-close-btn s-btn s-btn__muted fc-dark">
+        <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9 15 4.41z"></path></svg>
+    </button>
+</aside>
+
+
+    <div id="draft-saved" class="draft-saved community-option fl" style="height:24px; display:none;">draft saved</div>
+    <div id="draft-discarded" class="draft-discarded community-option fl" style="height:24px; display:none;">draft discarded</div>
+
+
+
+    <div id="wmd-preview" class="wmd-preview"></div>
+    <div></div>
+    <div class="edit-block">
+        <input id="fkey" name="fkey" type="hidden" value="a28b7cd57db0c22599d3bf88b2dbc72d5c462160508fa88b199596cca74726c9">
+        <input id="author" name="author" type="text">
+    </div>
+
+
+
+</div>
+
+                            <div class="ps-relative">
+                                
+                                            <div class="form-item new-post-login p0 my16">
+                <div class="grid gs16 md:fd-column new-login-form">
+                    <div class="grid fd-column w50 md:w-auto gsy gs8 jc-space-between new-login-left">
+                        <h3 class="grid--cell fs-title">Sign up or <a id="login-link" href="https://stackoverflow.com/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f16207575%2fhow-to-preview-an-image-before-and-after-upload%23new-answer">log in</a></h3>
+                        <script>
+                            StackExchange.ready(function () {
+                                StackExchange.helpers.onClickDraftSave('#login-link');
+                                    
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                    
+                            });
+                        </script>
+                        <div class="grid--cell s-btn s-btn__muted s-btn__outlined s-btn__icon google-login" data-ga="[&quot;sign up&quot;,&quot;Sign Up Started - Google&quot;,&quot;New Post&quot;,null,null]">
+                            <svg aria-hidden="true" class="svg-icon native iconGoogle" width="18" height="18" viewBox="0 0 18 18"><path d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z" fill="#4285F4"></path><path d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z" fill="#34A853"></path><path d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z" fill="#FBBC05"></path><path d="M8.98 4.18c1.17 0 2.23.4 3.06 1.2l2.3-2.3A8 8 0 0 0 1.83 5.4L4.5 7.49a4.77 4.77 0 0 1 4.48-3.3z" fill="#EA4335"></path></svg> Sign up using Google
+                        </div>
+                        <div class="grid--cell s-btn s-btn__muted s-btn__icon facebook-login" data-ga="[&quot;sign up&quot;,&quot;Sign Up Started - Facebook&quot;,&quot;New Post&quot;,null,null]">
+                            <svg aria-hidden="true" class="svg-icon iconFacebook" width="18" height="18" viewBox="0 0 18 18"><path d="M1.88 1C1.4 1 1 1.4 1 1.88v14.24c0 .48.4.88.88.88h7.67v-6.2H7.46V8.4h2.09V6.61c0-2.07 1.26-3.2 3.1-3.2.88 0 1.64.07 1.87.1v2.16h-1.29c-1 0-1.19.48-1.19 1.18V8.4h2.39l-.31 2.42h-2.08V17h4.08c.48 0 .88-.4.88-.88V1.88c0-.48-.4-.88-.88-.88H1.88z" fill="#3C5A96"></path></svg> Sign up using Facebook
+                        </div>
+                        <div class="grid--cell s-btn s-btn__muted s-btn__outlined s-btn__icon stackexchange-login" data-ga="[&quot;sign up&quot;,&quot;Sign Up Navigation&quot;,&quot;New Post&quot;,null,null]">
+                            <svg aria-hidden="true" class="svg-icon native iconLogoGlyphXSm" width="18" height="18" viewBox="0 0 18 18"><path d="M14 16v-5h2v7H2v-7h2v5h10z" fill="#BCBBBB"></path><path d="M12.09.72l-1.21.9 4.5 6.07 1.22-.9L12.09.71zM5 15h8v-2H5v2zm9.15-5.87L8.35 4.3l.96-1.16 5.8 4.83-.96 1.16zm-7.7-1.47l6.85 3.19.63-1.37-6.85-3.2-.63 1.38zm6.53 5L5.4 11.39l.38-1.67 7.42 1.48-.22 1.46z" fill="#F48024"></path></svg> Sign up using Email and Password
+                        </div>
+                    </div>
+                    <input type="hidden" name="use-facebook" class="use-facebook" value="false">
+                    <input type="hidden" name="use-google" class="use-google" value="false">
+                    <input type="button" class="submit-openid" value="Submit" style="display:none">
+                    <div class="grid gsy gs8 fd-column w50 md:w-auto new-login-right form-item p0">
+                                <h3 class="grid--cell fs-title">Post as a guest</h3>
+            <div class="grid--cell">
+                <div class="grid gs4 gsy fd-column">
+                    <label class="s-label" for="display-name">Name</label>
+                    <div class="grid ps-relative">
+                        <input class="s-input" id="display-name" name="display-name" maxlength="30" type="text" value="" tabindex="105" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <div class="grid--cell">
+                <div class="grid gs4 gsy fd-column">
+                    <div class="grid--cell">
+                        <div class="grid gs2 gsy fd-column">
+                            <label class="grid--cell s-label" for="m-address">Email</label>
+                            <p class="grid--cell s-description">Required, but never shown</p>
+                        </div>
+                    </div>
+                    <div class="grid ps-relative">
+                        <input class="s-input" id="m-address" name="m-address" type="text" value="" size="40" tabindex="106" placeholder="">
+                    </div>
+                </div>
+            </div>
+
+                    </div>
+                </div>
+            </div>
+            <script>
+                StackExchange.ready(
+                    function () {
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f16207575%2fhow-to-preview-an-image-before-and-after-upload%23new-answer', 'question_page');
+                    }
+                );
+            </script>
+            <noscript>
+                        <h3 class="grid--cell fs-title">Post as a guest</h3>
+            <div class="grid--cell">
+                <div class="grid gs4 gsy fd-column">
+                    <label class="s-label" for="display-name">Name</label>
+                    <div class="grid ps-relative">
+                        <input class="s-input" id="display-name" name="display-name" maxlength="30" type="text" value="" tabindex="105" placeholder="" />
+                    </div>
+                </div>
+            </div>
+            <div class="grid--cell">
+                <div class="grid gs4 gsy fd-column">
+                    <div class="grid--cell">
+                        <div class="grid gs2 gsy fd-column">
+                            <label class="grid--cell s-label" for="m-address">Email</label>
+                            <p class="grid--cell s-description">Required, but never shown</p>
+                        </div>
+                    </div>
+                    <div class="grid ps-relative">
+                        <input class="s-input" id="m-address" name="m-address" type="text" value="" size="40" tabindex="106" placeholder="" />
+                    </div>
+                </div>
+            </div>
+
+            </noscript>
+
+                            </div>
+
+                                                            <div class="form-submit cbt grid gsx gs4">
+                                    <button id="submit-button" class="grid--cell s-btn s-btn__primary s-btn__icon" type="submit" tabindex="120" autocomplete="off">
+Post Your Answer                                    </button>
+                                    <button class="grid--cell s-btn s-btn__danger discard-answer dno">
+                                        Discard
+                                    </button>
+                                        <p class="privacy-policy-agreement">
+                                            By clicking “Post Your Answer”, you agree to our <a href="https://stackoverflow.com/legal/terms-of-service/public" name="tos" target="_blank" class="-link">terms of service</a>, <a href="https://stackoverflow.com/legal/privacy-policy" name="privacy" target="_blank" class="-link">privacy policy</a> and <a href="https://stackoverflow.com/legal/cookie-policy" name="cookie" target="_blank" class="-link">cookie policy</a><input type="hidden" name="legalLinksShown" value="1">
+                                        </p>
+                                </div>
+                        </form>
+
+
+
+                        <h2 class="bottom-notice" data-loc="1">
+Not the answer you're looking for?                            Browse other questions tagged <a href="https://stackoverflow.com/questions/tagged/php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="https://stackoverflow.com/questions/tagged/javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="https://stackoverflow.com/questions/tagged/jquery" class="post-tag" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a> <a href="https://stackoverflow.com/questions/tagged/html5" class="post-tag" title="show questions tagged &#39;html5&#39;" rel="tag">html5</a>  or <a href="https://stackoverflow.com/questions/ask">ask your own question</a>.                        </h2>
+            </div>
+        </div>
+                <div id="sidebar" class="show-votes" role="complementary" aria-label="sidebar">
+                            <div class="module question-stats">
+                    <table id="qinfo">
+                        <tbody><tr>
+                            <td>
+                                <p class="label-key">asked</p>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <p class="label-key" title="2013-04-25 06:08:56Z">
+                                    <b>
+                                        <time itemprop="dateCreated" datetime="2013-04-25T06:08:56">6 years, 1 month ago</time>
+                                    </b>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="label-key">viewed</p>
+                            </td>
+
+                            <td style="padding-left: 10px">
+                                <p class="label-key">
+                                    <b>84,630 times</b>
+                                </p>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    <p class="label-key">active</p>
+                                </td>
+                                <td style="padding-left: 10px">
+                                    <p class="label-key"><b><a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload?lastactivity" class="lastactivity-link" title="2019-06-06 15:47:27Z">yesterday</a></b></p>
+                                </td>
+                            </tr>
+                    </tbody></table>
+                </div>
+            <div class="s-sidebarwidget s-sidebarwidget__yellow s-anchors s-anchors__default mb16" data-tracker="cb=1">
+            <div class="s-sidebarwidget--header s-sidebarwidget__small-bold-text">
+                Featured on Meta
+            </div>
+        <ul class="s-sidebarwidget--content s-sidebarwidget__items pt0 pr16 pb0 pl16">
+    <li class="s-sidebarwidget--item grid">
+        <div class="grid--cell1 fl-shrink0">
+                <a href="https://meta.stackexchange.com/questions/328475/unicorn-meta-zoo-3-how-do-we-grade-questions?cb=1" data-ga="[&quot;community bulletin board&quot;,&quot;Featured on Meta&quot;,&quot;https://meta.stackexchange.com/questions/328475/unicorn-meta-zoo-3-how-do-we-grade-questions&quot;,null,null]">
+<div class="favicon favicon-stackexchangemeta" title="Meta Stack Exchange"></div>                </a>
+        </div>
+        <div class="grid--cell">
+            <a href="https://meta.stackexchange.com/questions/328475/unicorn-meta-zoo-3-how-do-we-grade-questions?cb=1" data-ga="[&quot;community bulletin board&quot;,&quot;Featured on Meta&quot;,&quot;https://meta.stackexchange.com/questions/328475/unicorn-meta-zoo-3-how-do-we-grade-questions&quot;,null,null]">Unicorn Meta Zoo #3: How do we grade questions?</a>
+        </div>
+    </li>
+        </ul>
+</div>
+<div id="dfp-tsb" class="everyonelovesstackoverflow everyoneloves__top-sidebar" data-google-query-id="CJnC64DV2OICFdi3Gwod81QDkA" data-clc-prefilled="true" data-clc-ready="true" style=""><div id="google_ads_iframe_/248424177/stackoverflow.com/sb/question-pages_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/248424177/stackoverflow.com/sb/question-pages_0" title="3rd party ad content" name="google_ads_iframe_/248424177/stackoverflow.com/sb/question-pages_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" data-google-container-id="3" style="border: 0px; vertical-align: bottom;" data-load-complete="true" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/saved_resource(3).html"></iframe></div></div>
+            <div id="hireme"></div>
+<script>;try{(function(a){function b(a){return'string'==typeof a?document.getElementById(a):a}function c(a){return a=b(a),!!a&&'none'===getComputedStyle(a).display}function d(a){return!c(a)}function e(a){return!!a}function f(a){return /^\s*$/.test(b(a).innerHTML)}function g(a){var b=a.style;b.height=b.maxHeight=b.minHeight='auto',b.display='none',[].forEach.call(a.children,g)}function h(a,b){var c;return function(){return a&&(c=a.call(b||this,arguments),a=null),c}}function i(a){var b=document.createElement('script');b.src=a,document.body.appendChild(b)}function j(a){return k([],a)}function k(a,b){return a.push=function(a){return b(),delete this.push,this.push(a)},a}function l(){try{return!new Function('return async()=>{};')}catch(a){return!0}}function m(){return'undefined'!=typeof googletag&&!!googletag.apiReady}function n(){m()||(googletag={cmd:j(A)})}function o(){var a=document.createElement('div');a.className='adsbox',a.id='clc-abd',a.style.position='absolute',a.style.pointerEvents='none',a.innerHTML='&nbsp;',document.body.appendChild(a)}function p(a){var b=a.serviceName,c=a.slot,d=a.lineItemId;try{var e=c.getSlotElementId(),f=[];e||f.push('id=0');var h=document.getElementById(e);if(!e||h?h.hasAttribute('data-clc-stalled')&&f.push('st=1'):f.push('el=0'),0!==f.length)return void B(f.join('&'));-1===x.dh.indexOf(d)?h.setAttribute('data-clc-prefilled','true'):g(h),h.setAttribute('data-clc-ready','true')}catch(a){var i=document.querySelector('#dfp-tsb, #dfp-isb, #clc-tsb');i&&i.setAttribute('data-clc-ready','true'),B('e=1')}}function q(){return Object.keys(F.ids)}function r(a){var b=F.ids[a],c=F.slots[b];'function'==typeof c&&(c=c(a));return{path:'/'+C+'/'+E+'/'+b+'/'+D,sizes:c,zone:b}}function s(a){return!(clc.collapse&&void 0!==clc.collapse[a])||!!clc.collapse[a]}function t(a,b){'dfp-isb'===a&&b.setTargeting('Sidebar',['Inline']),'dfp-tsb'===a&&b.setTargeting('Sidebar',['Right']);var c=r(a),d=c.path,e=c.sizes,f=c.zone,g=googletag.defineSlot(d,e,a);s(f)&&g.setCollapseEmptyDiv(!0,!0),g.addService(b),!1}function u(b){var c=a.dfp&&a.dfp.targeting||{};Object.keys(c).forEach(function(a){b.setTargeting(a,c[a])})}function v(a){var g=a.map(b).filter(e);return{eligible:g.filter(f).filter(d).map(function(a){return a.id}),ineligible:g.filter(c)}}function w(b){if(void 0===b&&(b=q()),!m())return n(),void googletag.cmd.push(function(){return w(b)});var c=v(b),d=c.eligible,e=c.ineligible;if(e.forEach(g),0!==d.length){o(),googletag.destroySlots();var f=googletag.pubads();f.enableSingleRequest(),a.sreEvent||(f.addEventListener('slotRenderEnded',p),a.sreEvent=!0),u(f),d.forEach(function(a){return t(a,f)}),googletag.enableServices(),d.forEach(function(a){googletag.display(a)})}}var x=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a}({"lib":"https://cdn.sstatic.net/clc/clc.min.js?v=d5e853c48d84","style":"https://cdn.sstatic.net/clc/styles/clc.min.css?v=002bd589ccb2","u":"https://clc.stackoverflow.com/markup.js","wa":true,"kt":2000,"tto":true,"h":"clc.stackoverflow.com","allowed":"^(((talent\\.)?stackoverflow)|(blog\\.codinghorror)|(serverfault|askubuntu)|([^\\.]+\\.stackexchange))\\.com$","wv":true,"al":false,"dh":[4385506061,4386578282,4386579572]},a.options||{}),y=h(function(){var a=x.lib;l()&&(a=a.replace(/(\.min)?\.js(\?v=[0-9a-fA-F]+)?$/,'.ie$1.js$2')),i(a)}),z=a.cmd||[];Array.isArray(z)&&(0<z.length?y():k(z,y));var A=h(function(){i('https://www.googletagservices.com/tag/js/gpt.js')}),B=function(a){new Image().src='https://'+x.h+'/stalled.gif?'+a},C='248424177',D=/^\/tags\//.test(location.pathname)||/^\/questions\/tagged\//.test(location.pathname)?'tag-pages':/^\/$/.test(location.pathname)||/^\/home/.test(location.pathname)?'home-page':'question-pages',E=location.hostname;var F={slots:{lb:[[728,90]],mlb:[[728,90]],smlb:[[728,90]],bmlb:[[728,90]],sb:function(a){return'dfp-tsb'===a?[[300,250],[300,600]]:[[300,250]]},"tag-sponsorship":[[730,135]],"mobile-below-question":[[320,50],[300,250]]},ids:{"dfp-tlb":'lb',"dfp-mlb":'mlb',"dfp-smlb":'smlb',"dfp-bmlb":'bmlb',"dfp-tsb":'sb',"dfp-isb":'sb',"dfp-tag":'tag-sponsorship',"dfp-m-aq":'mobile-below-question',"clc-tlb":'lb',"clc-mlb":'mlb',"clc-tsb":'sb'}};(function(){var b=x.al;b&&z.push(function(){return a.load()})})(),n(),a.dfp={load:w},a.options=x,a.cmd=z})(this.clc=this.clc||{})}catch(a){window.console.error(a)}</script>            <script>
+                var clc = clc || {};
+                clc.collapse = { sb: !0,'tag-sponsorship':!0,lb:!1,mlb:!1,smlb:!1,bmlb:!1,'mobile-below-question':!0};
+                clc.cmd = clc.cmd || [];
+                clc.cmd.push(function () { window.clc_request='Akpkhxer69YIAAAAANdO9wACAAAAAgAAAAAdAAAAfHBocHxqYXZhc2NyaXB0fGpxdWVyeXxodG1sNXwA5MQeIsvQqLnyyw'; clc.load(); });
+                                clc.dfp = clc.dfp || {};
+                clc.dfp.targeting = {Registered:['false'],'so-tag':['php','javascript','jquery','html5']};
+                        clc.dfp.targeting.PromotedContent = 'Google';
+        clc.dfp.targeting.PromotedId = '42393';
+        clc.dfp.targeting.QuestionId = '16207575';
+        clc.dfp.targeting.PromotedHost = 'stackoverflow.com';
+
+                var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                googletag.cmd.push(function () { clc.dfp.load(); });
+            </script>
+            <div class="module sidebar-linked">
+	<h4 id="h-linked">Linked</h4>
+	<div class="linked" data-tracker="lq=1">
+
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/4459379?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted extra-large">1360</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded?noredirect=1&amp;lq=1" class="question-hyperlink">Preview an image before it is uploaded</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/17061216?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">10</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/17061216/how-to-upload-a-image-and-display-on-same-page-in-asp-net-mvc-4?noredirect=1&amp;lq=1" class="question-hyperlink">How to upload a image and display on same page in asp.net mvc 4</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/25564972?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">3</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/25564972/is-it-possible-to-show-a-image-that-is-in-a-tmp-folder-before-upload?noredirect=1&amp;lq=1" class="question-hyperlink">Is it possible to show a image that is in a tmp folder before upload?</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/18978639?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">2</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/18978639/show-uploaded-image-before-clicking-on-submit-button?noredirect=1&amp;lq=1" class="question-hyperlink">show uploaded image before clicking on submit button</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/18022808?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">6</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/18022808/how-html-file-input-works?noredirect=1&amp;lq=1" class="question-hyperlink">How HTML File input works?</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/19992027?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">0</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/19992027/preview-uploaded-file-image?noredirect=1&amp;lq=1" class="question-hyperlink">preview uploaded file (image)</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/29788305?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">0</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/29788305/how-to-load-division-only-using-jquery-in-asp-net?noredirect=1&amp;lq=1" class="question-hyperlink">How to load division only using jquery in asp.net?</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/34024295?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">0</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/34024295/get-a-user-selected-file-as-a-base64-encoded-string-for-a-live-preview-of-the-im?noredirect=1&amp;lq=1" class="question-hyperlink">Get a user selected file as a base64 encoded string for a live preview of the image as well as for linking it in the final result</a>
+</div>
+<div class="spacer">
+	<a href="https://stackoverflow.com/q/50344758?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">1</div>
+	</a>
+	<a href="https://stackoverflow.com/questions/50344758/how-to-display-the-uploaded-image-in-the-edit-form?noredirect=1&amp;lq=1" class="question-hyperlink">How to display the uploaded image in the edit form?</a>
+</div>			</div>
+</div>
+
+                <div class="module sidebar-related">
+                    <h4 id="h-related">Related</h4>
+                    <div class="related js-gps-related-questions" data-tracker="rq=1">
+                        <div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/111102?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">7649</div></a><a href="https://stackoverflow.com/questions/111102/how-do-javascript-closures-work?rq=1" class="question-hyperlink">How do JavaScript closures work?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/166221?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes extra-large">2765</div></a><a href="https://stackoverflow.com/questions/166221/how-can-i-upload-files-asynchronously?rq=1" class="question-hyperlink">How can I upload files asynchronously?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/178325?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">7252</div></a><a href="https://stackoverflow.com/questions/178325/how-do-i-check-if-an-element-is-hidden-in-jquery?rq=1" class="question-hyperlink">How do I check if an element is hidden in jQuery?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/208105?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">5553</div></a><a href="https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object?rq=1" class="question-hyperlink">How do I remove a property from a JavaScript object?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/503093?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">7729</div></a><a href="https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage?rq=1" class="question-hyperlink">How do I redirect to another webpage?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/901712?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">4238</div></a><a href="https://stackoverflow.com/questions/901712/how-to-check-whether-a-checkbox-is-checked-in-jquery?rq=1" class="question-hyperlink">How to check whether a checkbox is checked in jQuery?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/950087?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">4659</div></a><a href="https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file?rq=1" class="question-hyperlink">How do I include a JavaScript file in another JavaScript file?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/1789945?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">7434</div></a><a href="https://stackoverflow.com/questions/1789945/how-to-check-whether-a-string-contains-a-substring-in-javascript?rq=1" class="question-hyperlink">How to check whether a string contains a substring in JavaScript?</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/4459379?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">1360</div></a><a href="https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded?rq=1" class="question-hyperlink">Preview an image before it is uploaded</a></div><div class="spacer js-gps-track"><a href="https://stackoverflow.com/q/5767325?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted extra-large">7159</div></a><a href="https://stackoverflow.com/questions/5767325/how-do-i-remove-a-particular-element-from-an-array-in-javascript?rq=1" class="question-hyperlink">How do I remove a particular element from an array in JavaScript?</a></div>
+                    </div>
+                </div>
+
+<div id="hot-network-questions" class="module tex2jax_ignore">
+    <h4>
+        <a href="https://stackexchange.com/questions?tab=hot" class="js-gps-track s-link s-link__inherit" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li>
+                <div class="favicon favicon-music" title="Music: Practice &amp; Theory Stack Exchange"></div><a href="https://music.stackexchange.com/questions/85649/how-can-i-make-12-tone-and-atonal-melodies-sound-interesting" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:240 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How can I make 12 tone and atonal melodies sound interesting?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="https://unix.stackexchange.com/questions/523494/bash-does-not-know-the-letter-p" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    bash does not know the letter 'p'
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/138079/my-boss-want-to-get-rid-of-me-what-should-i-do" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    My boss want to get rid of me - what should I do?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="https://aviation.stackexchange.com/questions/65259/can-the-removal-of-a-duty-free-sales-trolley-result-in-a-measurable-reduction-in" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Can the removal of a duty-free sales trolley result in a measurable reduction in emissions?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-cooking" title="Seasoned Advice"></div><a href="https://cooking.stackexchange.com/questions/99396/can-i-utilise-a-baking-stone-to-make-crepes" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:49 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Can I utilise a baking stone to make crepes?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/138083/ive-been-given-a-project-i-cant-complete-what-should-i-do" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    I've been given a project I can't complete, what should I do?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="https://security.stackexchange.com/questions/211419/is-using-echo-to-display-attacker-controlled-data-on-the-terminal-dangerous" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is using 'echo' to display attacker-controlled data on the terminal dangerous?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-diy" title="Home Improvement Stack Exchange"></div><a href="https://diy.stackexchange.com/questions/166741/how-can-i-remove-material-from-this-wood-beam" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How can I remove material from this wood beam?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-sitecore" title="Sitecore Stack Exchange"></div><a href="https://sitecore.stackexchange.com/questions/19237/how-to-publish-items-after-pipeline-is-finished" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:664 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to publish items after pipeline is finished?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-stats" title="Cross Validated"></div><a href="https://stats.stackexchange.com/questions/411893/advantages-of-the-exponential-family-why-should-we-study-it-and-use-it" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Advantages of the Exponential Family: why should we study it and use it?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-history" title="History Stack Exchange"></div><a href="https://history.stackexchange.com/questions/53024/which-languages-would-be-most-useful-in-europe-at-the-end-of-the-19th-century" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Which languages would be most useful in Europe at the end of the 19th century?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="https://money.stackexchange.com/questions/109804/what-is-the-purpose-of-bonds-within-an-investment-portfolio" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:93 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What is the purpose of bonds within an investment portfolio?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-music" title="Music: Practice &amp; Theory Stack Exchange"></div><a href="https://music.stackexchange.com/questions/85616/bb13b9-confusion" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:240 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Bb13b9 confusion
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="https://superuser.com/questions/1445219/why-can-my-keyboard-only-digest-6-keypresses-at-a-time" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why can my keyboard only digest 6 keypresses at a time?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/137970/i-have-a-problematic-assistant-manager-but-i-cant-fire-him" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    I have a problematic assistant manager, but I can't fire him
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-french" title="French Language Stack Exchange"></div><a href="https://french.stackexchange.com/questions/36793/what-are-some-really-overused-phrases-in-french-that-are-common-nowadays" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:299 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What are some really overused phrases in French that are common nowadays?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/131596/should-i-refuse-being-named-as-co-author-of-a-bad-quality-paper" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Should I refuse being named as co-author of a bad quality paper?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="https://scifi.stackexchange.com/questions/214032/60s-or-70s-novel-about-empire-of-man-making-1st-contact-with-1st-discovered-alie" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    60s or 70s novel about Empire of Man making 1st contact with 1st discovered alien race
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-german" title="German Language Stack Exchange"></div><a href="https://german.stackexchange.com/questions/52602/what-would-be-the-way-to-say-just-saying-in-german-not-the-literal-translati" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:253 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What would be the way to say "just saying" in German? (Not the literal translation)
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="https://scifi.stackexchange.com/questions/214075/why-does-mama-coco-look-old-after-going-to-the-other-world" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why Does Mama Coco Look Old After Going to the Other World?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-russian" title="Russian Language Stack Exchange"></div><a href="https://russian.stackexchange.com/questions/19849/russian-word-for-a-male-zebra" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:451 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Russian word for a male zebra
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-retrocomputing" title="Retrocomputing Stack Exchange"></div><a href="https://retrocomputing.stackexchange.com/questions/11274/why-did-intel-abandon-unified-cpu-cache" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:648 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why did Intel abandon unified CPU cache?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-networkengineering" title="Network Engineering Stack Exchange"></div><a href="https://networkengineering.stackexchange.com/questions/59662/what-are-neighboring-ports" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:496 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What are neighboring ports?
+                </a>
+
+            </li>
+            <li class="js-hidden" style="">
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="https://superuser.com/questions/1445934/excel-division-by-0-error-when-trying-to-average-results-of-formulas" class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Excel division by 0 error when trying to average results of formulas
+                </a>
+
+            </li>
+    </ul>
+
+        
+</div>
+
+    <div id="feed-link" class="js-feed-link">
+        <a href="https://stackoverflow.com/feeds/question/16207575" title="Feed of this question and its answers">
+            <svg aria-hidden="true" class="svg-icon fc-orange-400 iconRss" width="18" height="18" viewBox="0 0 18 18"><path d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z"></path></svg>
+            Question feed
+        </a>
+    </div>
+    <aside class="s-modal js-feed-link-modal" tabindex="-1" role="dialog" aria-labelledby="feed-modal-title" aria-describedby="feed-modal-description" aria-hidden="true">
+        <div class="s-modal--dialog js-modal-dialog wmx4" role="document" data-controller="se-draggable">
+            <h1 class="s-modal--header fw-bold js-first-tabbable c-move" id="feed-modal-title" data-target="se-draggable.handle" tabindex="0">
+                Subscribe to RSS
+            </h1>
+            <div class="grid gs4 gsy fd-column">
+                <div class="grid--cell">
+                    <label class="d-block s-label" for="feed-url">
+                        Question feed
+                        <p class="s-description mt2" id="feed-modal-description">To subscribe to this RSS feed, copy and paste this URL into your RSS reader.</p>
+                    </label>
+                </div>
+                <div class="grid ps-relative">
+                    <input class="s-input" type="text" name="feed-url" id="feed-url" readonly="readonly" value="https://stackoverflow.com/feeds/question/16207575">
+                    <svg aria-hidden="true" class="svg-icon s-input-icon fc-orange-400 iconRss" width="18" height="18" viewBox="0 0 18 18"><path d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z"></path></svg>
+                </div>
+            </div>
+            <a class="s-modal--close s-btn s-btn__muted js-modal-close js-last-tabbable" href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" aria-label="Close">
+                <svg aria-hidden="true" class="svg-icon iconClearSm" width="14" height="14" viewBox="0 0 14 14"><path d="M12 3.41L10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7 12 3.41z"></path></svg>
+            </a>
+        </div>
+    </aside>
+        </div>
+    </div>
+<script>StackExchange.ready(function(){$.get('/posts/16207575/ivc/e199');});</script>
+<noscript><div><img src="/posts/16207575/ivc/e199" class="dno" alt="" width="0" height="0"></div></noscript><div style="display:none" id="prettify-lang">lang-php</div></div>
+
+
+        </div>
+    </div><script src="./php - How to preview an image before and after upload_ - Stack Overflow_files/clc.min.js.download"></script><script src="./php - How to preview an image before and after upload_ - Stack Overflow_files/gpt.js.download"></script>
+
+    <footer id="footer" class="site-footer js-footer" role="contentinfo">
+        <div class="site-footer--container">
+                <div class="site-footer--logo">
+
+                    
+                    <a href="https://stackoverflow.com/"><svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewBox="0 0 32 37"><path d="M26 33v-9h4v13H0V24h4v9h22z" fill="#BCBBBB"></path><path d="M21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM26 18.4L13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm14 10.79l.68-2.95-16.1-3.35L7 23l16.1 2.99zM23 30H7v-3h16v3z" fill="#F48024"></path></svg></a>
+                </div>
+            
+            <nav class="site-footer--nav">
+                    <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                        <h5 class="-title"><a href="https://stackoverflow.com/" class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 15})">Stack Overflow</a></h5>
+                        <ul class="-list js-primary-footer-links">
+                            <li class="-item"><a href="https://stackoverflow.com/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 16})">Questions</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 17})">Jobs</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 11})">Developer Jobs Directory</a></li>
+                                     <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 28})">Salary Calculator</a></li>
+                                                            <li class="-item"><a href="https://stackoverflow.com/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 3 })">Help</a></li>
+                                <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 12 })">Mobile</a></li>
+                        <li class="-item"><a class="-link" role="button">Disable Responsiveness</a></li></ul>
+                    </div>
+                    <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                        <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/" class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 19 })">Products</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="https://stackoverflow.com/teams" class="js-gps-track -link" data-ga="[&quot;teams traffic&quot;,&quot;footer - site nav&quot;,&quot;stackoverflow.com/teams&quot;,null,{&quot;dimension4&quot;:&quot;teams&quot;}]" data-gps-track="footer.click({ location: 2, link: 29 })">Teams</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 20 })">Talent</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertising" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 21 })">Advertising</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 22 })">Enterprise</a></li>
+                        </ul>
+                    </div>
+                <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default">
+                    <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5>
+                    <ul class="-list">
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li>
+                                                <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 7 })" href="https://stackoverflow.com/legal">Legal</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">Privacy Policy</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="site-footer--col site-footer--categories-nav site-footer--col__visible">
+                    <a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" class="site-footer--back js-footer-back"><svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewBox="0 0 18 18"><path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7 7 7z"></path></svg></a>
+                    <div>
+                        <h5 class="-title"><a href="https://stackexchange.com/">Stack Exchange<br> Network</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Technology">Technology</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Life / Arts">Life / Arts</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Science">Science</a></li>
+                            <li class="-item"><a href="https://stackoverflow.com/questions/16207575/how-to-preview-an-image-before-and-after-upload#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Other">Other</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="site-footer--categories">
+                    <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+        <ul class="-list">
+                <li class="-item"><a href="https://stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                <li class="-item"><a href="https://serverfault.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="system and network administrators">Server Fault</a></li>
+                <li class="-item"><a href="https://superuser.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="computer enthusiasts and power users">Super User</a></li>
+                <li class="-item"><a href="https://webapps.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="power users of web applications">Web Applications</a></li>
+                <li class="-item"><a href="https://askubuntu.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                <li class="-item"><a href="https://webmasters.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="pro webmasters">Webmasters</a></li>
+                <li class="-item"><a href="https://gamedev.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="professional and independent game developers">Game Development</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://tex.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                <li class="-item"><a href="https://softwareengineering.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li>
+                <li class="-item"><a href="https://unix.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                <li class="-item"><a href="https://apple.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                <li class="-item"><a href="https://wordpress.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li>
+                <li class="-item"><a href="https://gis.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                <li class="-item"><a href="https://electronics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://android.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                <li class="-item"><a href="https://security.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="information security professionals">Information Security</a></li>
+                <li class="-item"><a href="https://dba.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                <li class="-item"><a href="https://drupal.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li>
+                <li class="-item"><a href="https://sharepoint.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li>
+                <li class="-item"><a href="https://ux.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="user experience researchers and experts">User Experience</a></li>
+                <li class="-item"><a href="https://mathematica.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://salesforce.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                <li class="-item"><a href="https://expressionengine.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li>
+                <li class="-item"><a href="https://pt.stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li>
+                <li class="-item"><a href="https://blender.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li>
+                <li class="-item"><a href="https://networkengineering.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="network engineers">Network Engineering</a></li>
+                <li class="-item"><a href="https://crypto.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li>
+                <li class="-item"><a href="https://codereview.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="peer programmer code reviews">Code Review</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://magento.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li>
+                <li class="-item"><a href="https://softwarerecs.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li>
+                <li class="-item"><a href="https://dsp.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li>
+                <li class="-item"><a href="https://emacs.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li>
+                <li class="-item"><a href="https://raspberrypi.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li>
+                <li class="-item"><a href="https://ru.stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="программистов">Stack Overflow на русском</a></li>
+                <li class="-item"><a href="https://codegolf.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://es.stackoverflow.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li>
+                <li class="-item"><a href="https://ethereum.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li>
+                <li class="-item"><a href="https://datascience.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li>
+                <li class="-item"><a href="https://arduino.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li>
+                <li class="-item"><a href="https://bitcoin.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 26 })">
+                        <strong>
+                            more (31)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+        <ul class="-list">
+                <li class="-item"><a href="https://photo.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                <li class="-item"><a href="https://scifi.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                <li class="-item"><a href="https://graphicdesign.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                <li class="-item"><a href="https://movies.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                <li class="-item"><a href="https://music.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li>
+                <li class="-item"><a href="https://worldbuilding.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li>
+                <li class="-item"><a href="https://cooking.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"><ul class="-list">
+                <li class="-item"><a href="https://diy.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li>
+                <li class="-item"><a href="https://money.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                <li class="-item"><a href="https://academia.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li>
+                <li class="-item"><a href="https://law.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 26 })">
+                        <strong>
+                            more (15)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+        <ul class="-list">
+                <li class="-item"><a href="https://english.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                <li class="-item"><a href="https://skeptics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="scientific skepticism">Skeptics</a></li>
+                <li class="-item"><a href="https://judaism.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                <li class="-item"><a href="https://travel.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li>
+                <li class="-item"><a href="https://christianity.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                <li class="-item"><a href="https://ell.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li>
+                <li class="-item"><a href="https://japanese.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"><ul class="-list">
+                <li class="-item"><a href="https://gaming.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                <li class="-item"><a href="https://bicycles.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                <li class="-item"><a href="https://rpg.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                <li class="-item"><a href="https://anime.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li>
+                <li class="-item"><a href="https://puzzling.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li>
+                <li class="-item"><a href="https://mechanics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 26 })">
+                        <strong>
+                            more (33)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+        <ul class="-list">
+                <li class="-item"><a href="https://mathoverflow.net/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="professional mathematicians">MathOverflow</a></li>
+                <li class="-item"><a href="https://math.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                <li class="-item"><a href="https://stats.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                <li class="-item"><a href="https://cstheory.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                <li class="-item"><a href="https://physics.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li>
+                <li class="-item"><a href="https://chemistry.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="scientists, academics, teachers, and students in the field of chemistry">Chemistry</a></li>
+                <li class="-item"><a href="https://biology.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="biology researchers, academics, and students">Biology</a></li>
+                    </ul></div><div class="site-footer--col site-footer--category js-footer-col" data-name="Science"><ul class="-list">
+                <li class="-item"><a href="https://cs.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li>
+                <li class="-item"><a href="https://philosophy.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 26 })">
+                        <strong>
+                            more (10)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="site-footer--col site-footer--category js-footer-col" data-name="Other">
+        <ul class="-list">
+                <li class="-item"><a href="https://meta.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                <li class="-item"><a href="https://stackapps.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                <li class="-item"><a href="https://api.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li>
+                <li class="-item"><a href="https://data.stackexchange.com/" class="-link js-gps-track" data-gps-track="footer.click({ location: 29, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li>
+                    </ul>
+    </div>
+                </div>
+            </nav>
+            <div class="site-footer--copyright fs-fine">
+                <ul class="-list">
+                    <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link:4 })" href="https://stackoverflow.blog/?blb=1">Blog</a></li>
+                    <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li>
+                    <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li>
+                    <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li>
+                </ul>
+
+                <p class="mt-auto mb24">
+site design / logo © 2019 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a>
+                            with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>.
+                    <span id="svnrev">rev&nbsp;2019.6.7.33918</span>
+                </p>
+            </div>
+        </div>
+
+            </footer>
+            <script>StackExchange.ready(function () { StackExchange.responsiveness.addSwitcher(); })</script>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled
+            <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno">
+        </div>
+    </noscript>
+
+<script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ]
+                });
+
+
+
+                    StackExchange.ga.setDimension('dimension2', '|php|javascript|jquery|html5|');
+
+                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
+
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>
+            
+    
+    
+<div class="adsbox" id="clc-abd" style="position: absolute; pointer-events: none;">&nbsp;</div><iframe id="google_osd_static_frame_7799916917557" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./php - How to preview an image before and after upload_ - Stack Overflow_files/saved_resource(4).html"></iframe><script src="./php - How to preview an image before and after upload_ - Stack Overflow_files/markup.js.download"></script></body></html>

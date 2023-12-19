@@ -1,0 +1,555 @@
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: ;
+	background: #867979;
+}
+.mycontainer{
+  margin: 0;
+  padding: 0;
+  opacity: 0.9;
+}
+
+#landing{
+  background-image:url("../img/landing-image.jpg"); 
+  background-repeat: no-repeat;
+  background-position: right top;
+   background-size: cover;
+   background-attachment: fixed;
+  height:100vh;
+}
+
+#landing > .row{
+  background-color: rgba(0,0,0,0.4);
+  margin: 0;
+}
+
+#landing > div.row > div h3{
+  color: #fff;
+  text-align: center;
+  margin: 15vh auto;
+  font-size: 52px;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    margin-bottom: 20px
+}
+#landing > div.row > div > h4{
+  color: #eee;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#landing > div.row > div > div button.submitbtn{
+  background-color: mediumseagreen;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  outline: 1px solid transparent;
+  font-size:18px; 
+  color:#fff;
+  border-radius: 5px;
+  transition: 1s;
+  margin: 5px 10px;
+}
+
+#landing > div.row > div > div button.submitbtn:hover{
+  background: transparent;
+  border: 1px solid mediumseagreen;
+  transition: 1s;
+}
+
+.parallax, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6{
+	 /* Set a specific height */
+    min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 15%;
+}
+.parallax2, .parallax3, .parallax4, .parallax5, .parallax6{
+  margin: 0;
+	padding-top: 20%;
+}
+.parallax{
+    padding-top: 0.1%;
+
+}
+
+ /* The image use as background */
+.parallax {background-image: url("../img/simple-pop-designs-for-hall-ceiling.jpg");}
+.parallax2 {background-image: url("../img/maxres-default-all-square.jpg");}
+.parallax3 {background-image: url("../img/All-square-with-box.jpg");}
+.parallax4 {background-image: url("../img/lighting-with-curve-hexagon.jpg");}
+.parallax5 {background-image: url("../img/False-treading-with-recess-lighting.jpg");}
+.parallax6 {background-image: url("../img/Modern-office-false-ceiling-design.jpg");}
+
+.content1, .content2, .content3, .content4, .content5, .content6 {
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	margin: 11% 5%;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	padding: 2% 7% 1%;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px white;
+	text-align: justify;
+	height: auto;
+}
+.content1{
+  padding-top: ;
+}
+.content2, .content3, .content4, .content5, .content6 {	margin-top: 0;}
+
+#details, #details2, #details3, #details4, #details5, #details6{font-family: Helvital;	font-size: 20px; }
+
+div.scroll{
+  display: inline-flex;
+ justify-content: center;
+ width: 100%;
+}
+
+.fa-chevron-left, .fa-chevron-right, .pre, .nxt{ margin: 0 20%; }
+
+#next, #previous, #next2, #previous2, #next3, #previous3, #next4, #previous4, #next5, #previous5, #next6, #previous6{
+	font-size: 30px; color:  limegreen; padding: 10px 15px; transition: 0.5s; border-radius: 5px;}
+
+#next:hover, #previous:hover, #next2:hover, #previous2:hover, #next3:hover, #previous3:hover, #next4:hover, #previous4:hover, #next5:hover, #previous5:hover, #next6:hover, #previous6:hover{
+	color:#fff;
+  background: rgba(0,0,0,0.5);
+  transition: 0.5s;
+	opacity: 0.9;
+  cursor: pointer;
+}
+
+div.description{
+	font-size: 3.5vw;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #fff;
+	opacity: 0.6;
+	color: black;
+	width: 40%;
+	margin: 0 auto 2%;
+	border-radius: 5px;
+	font-family:Aria;
+	font-weight: bold;
+}
+
+/* img review modal*/
+	* { box-sizing: border-box; }
+
+.row > .column { padding: 0 8px; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  display: inline-block;
+  width: 21%;
+  height: 110px;
+  margin: 0 1%;
+  padding: 0;
+  flex:1; 
+  justify-content: space-between;
+}
+
+#imagerow{
+  display: flex;  
+  width: 100%;
+  flex-direction: row;
+  height: 120px; 
+  margin: 0 auto; 
+  margin-bottom: 20px;
+}
+.imgcontainer {
+  width: 87%;
+  height: inherit;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  z-index: 10;
+  padding:0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.8); 
+}
+
+/* Modal Content */
+.modal-content, #modal-content  {
+  position: relative;
+  background-color: #000;
+  transition: 1s;
+  margin: 7% auto;
+  padding: 0;
+  width: 60%;
+  max-width: 1200px;
+  opacity: 1;
+}
+
+.orderbtn .ordercart{
+  font-family: Helvital;
+  position: absolute;
+  background: mediumseagreen;
+  padding: 2px 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 17px;
+  left: 90%;
+  bottom: 91%;
+  transform: translate(-50%, -50%);
+  transition: .5s;
+  outline: none;
+}
+
+.orderbtn .ordercart:hover, .orderbtn .ordercart:focus{
+  background: transparent;
+  outline: none;
+  border:1px solid mediumseagreen;
+  transition: .5s;
+}
+/* The Close Button */
+span.close {
+  color: #d50000;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 42px;
+  font-weight: bold;
+  opacity: 1;
+  text-shadow: unset;
+}
+
+span.close:hover,
+span.close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .8;
+}
+
+/*slide images */
+.mySlides, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6{ display: none; }
+
+.mySlides img, .mySlides2 img, .mySlides3 img, .mySlides4 img, .mySlides5 img, .mySlides6 img{
+    height: 400px;
+    width: 100%;
+  }
+  .mySlides .imgactive{height: 150px; }
+
+  #mydemo .column img{
+    height: 100%;
+    width: 100%;
+  }
+
+   img.hover-shadow{
+    height: 100%;
+    width: 13.8vw;
+  }
+
+.cursor { cursor: pointer; }
+
+/* Next & previous buttons */
+.previt,
+.nextit {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextit {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.previt:hover,
+.nextit:hover {
+	text-decoration: none;
+	color: /*mediumseagreen*/ #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  padding: 0px 10px;
+  position: absolute;
+  top: 0;
+  background: orange;
+  border-radius: 30px;
+}
+
+#modal-content div div.numbertext {
+  font-size: 17px;
+  margin: 10% 0 10% 10px;
+}
+
+img { margin-bottom: -4px; }
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo, .demo2, .demo3, .demo4, .demo5, .demo6 { opacity: 0.6; }
+
+.active,
+.demo:hover, .demo2:hover, .demo3:hover, .demo4:hover, .demo5:hover, .demo6:hover {
+  opacity: 1;
+}
+
+#mydemo{ text-align: center; }
+
+img.hover-shadow { transition: 0.3s; }
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column{	position: relative; }
+
+.clicktoview.glyphicon-hand-up, .clicktoview.fa-hand-o-up{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imagerow div div div i{  margin-left: 5px; }
+
+.text{
+	cursor: pointer;
+	position: absolute;
+  bottom: 0;
+	top: 0;
+	right: 1;
+  background: rgba(0,190,110,.6);
+  height: 100%;
+  width: 13.8vw;
+  -webkit-transform:scale(0);
+  -moz-transform:scale(0);
+}
+
+#imagerow .column .imgcontainer:hover .text, #imagerow2 .column .imgcontainer:hover .text, #imagerow3 .column .imgcontainer:hover .text{
+  transform: scale(1);
+  -moz-transform:scale(1);
+} 
+#imagerow4 .column .imgcontainer:hover .text, #imagerow5 .column .imgcontainer:hover .text, #imagerow6 .column .imgcontainer:hover .text{
+  transform: scale(1);
+  -moz-transform:scale(1);
+}
+
+/*check and like */
+.check{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	font-size: 1vw;
+}
+.fa-star{
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+  transform: translate(-50%, -50%);
+}
+
+#modal-content div span.fa.fa-comment-o, span.fa.fa-comments-o{
+  position: relative;
+  bottom: 20px;
+  left: 40px;
+  color:  #fff;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+}
+
+#modal-content div small.star, #modal-content div .user{
+  position: relative;
+  bottom: 27px;
+  left: 34px;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+}
+#modal-content div span.lnr-users{
+  position: relative;
+  bottom: 30px;
+  left: 60px;
+  color:  #fff;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+
+#modal-content div .user{
+  left: 62px;
+  font-weight: normal;
+  
+}
+
+.checked{  color: orange; }
+
+.column:hover .text{
+	transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+	display: block;
+}
+
+div .fa-cart-arrow-down, div .fa-cart-plus, div .fa-cart-plus{
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 50px;
+  transition: 1s;
+}
+
+div.fa-cart-plus:hover, .fa-cart-arrow-down:hover, .fa-cart-plus:hover{
+  content: "";
+  cursor: pointer;
+}
+#norder img.norder{
+  position: absolute;
+  bottom: 92%;
+  right: 93%;
+}
+
+div.mytooltip{
+  position: absolute;
+  bottom: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 2px 10px;
+  visibility:;
+  display: none;
+}
+
+ div.mytooltip::after {
+   content: "";
+   position: absolute;
+   bottom: -72%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-width: 7px;
+   border-style: solid;
+   border-color: #000 transparent transparent;
+}
+
+div.fa-thumbs-o-down, div .fa-cart-arrow-down{
+   color: orange;
+}
+
+
+/* image review modal end*/
+
+@media screen and (max-width: 840px){
+  .modal-content,#modal-content  {
+    margin: 17% auto;
+    width: 80%;
+    transition: 1s;
+  }
+
+  .orderbtn .ordercart{ left:85%; }
+
+}
+@media screen and (max-width: 640px){
+
+    .fa-chevron-left, .fa-chevron-right{
+    font-size: 30px;
+    margin: 0 15%;
+  }
+
+  div .fa-cart-arrow-down, div .fa-cart-plus, div .fa-cart-plus{ top: 52%; }
+
+  div.description{
+    font-size:120%;
+    width: 80%;
+  }
+  .mySlides img, .mySlides2 img, .mySlides3 img, .mySlides4 img, .mySlides5 img, .mySlides6 img{ height: 300px; }
+  #mydemo .column img{
+    width: 120%;
+    height: 80%;
+  }
+
+  .modal-content,#modal-content  { width: 90%; }
+
+  img.hover-shadow{
+    height: 100%;
+    width: 100%;
+  }
+  #imagerow{ margin-bottom: 10px; }
+
+  .text{
+    background: unset;
+    color: mediumseagreen;
+  }
+
+  div .fa-cart-arrow-down, div .fa-cart-plus, div .fa-cart-plus{
+    font-size: 30px;
+    bottom:40%;
+  }
+
+  div.mytooltip::after {
+   bottom: -120%;
+   border: unset;
+  }
+
+  .orderbtn .ordercart{ left:85%; }
+
+  #modal-content div div.numbertext {  font-size: 2.5vw; }
+
+}
+
+@media screen and (max-width: 440px){
+  #norder img.norder{ left: 75%; }
+}
+
+@media screen and (max-width: 540px){
+  .orderbtn .ordercart{ left:72%; }
+
+  #landing > div.row > div h3{ font-size: 10vw; }
+}
+
+
+@media screen and (max-width: 350px){
+
+#landing > div.row > div > div button.submitbtn{ margin-left: 0; }
+  #norder img.norder{ left: 78%; }
+}
+
+@media screen and (max-width: 768px){
+  #details, #details2, #details3, #details4, #details5, #details6{word-spacing: -3px;}
+}
