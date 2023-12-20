@@ -47,7 +47,7 @@
     $data2 = htmlspecialchars($data2);
     return $data2;
   }
-  $pattern = '/^\(?([+234]{4})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/';
+  $pattern = '/^\(?([0]{1})\)?([0-9]{10})$/';
   $orderdate = date("Y-m-d");
   $ordernum = "";
   //if (isset($_POST["submit"])) {
@@ -744,7 +744,7 @@
     	var sparent = $(phon).parents('div');
     	var pspan = sparent.children('span')[0];
     	
-    	var pattern2 = /^\(?([+234]{4})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+    	var pattern2 = /^\(?([0]{1})\)?([0-9]{10})$/;
 	    if(phon.value.match(pattern2) )
 	    {
 	    	phon.style.color = 'mediumseagreen';
@@ -752,7 +752,7 @@
 	    }
 	    else{
 	    	phon.style.color = 'red';
-	    	pspan.innerHTML = "Pls follow this pattern +234 888-999-7777";
+	    	pspan.innerHTML = "Pls follow this pattern 08012345678";
 	    }
     }
 setInterval(function(){
@@ -760,7 +760,7 @@ setInterval(function(){
 	var phchk = 1;
 	mchk = 1;
 	var demail = document.getElementById('your_email').value;
-	var mpattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+	var mpattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,10})+$/;
 	if (demail.match(mpattern)) {
 		document.getElementById('your_email').style.color = "mediumseagreen";
 		mchk = 1;

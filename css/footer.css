@@ -2,8 +2,7 @@
 .resultmodal{
   display: none;
     width: 60%;
-    height:;
-    background: rgba(0,200,100,0.7);
+   	background: rgba(0,200,100,0.7);
     position: fixed;
     margin: 0 auto;
     left: 20%;

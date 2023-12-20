@@ -1,15 +1,11 @@
 <style>
-* {
-  box-sizing: border-box;
-}
-body{
-  background: ;
-}
+  * {
+      box-sizing: border-box;
+  }
 
 .resultmodal{
   display: none;
     width: 60%;
-    height: ;
     background: rgba(0,200,100,0.7);
     position: fixed;
     margin: 0 auto;
@@ -49,7 +45,7 @@ body{
   color: #d50000;
   top: 22px;
   opacity: 1;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #closeform:hover{

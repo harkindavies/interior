@@ -106,14 +106,14 @@
 			        $result1=mysqli_fetch_assoc($check1);
 			        $pstrim1 = $result1['projectimage'];
 			        $proprice = $result1['projectprice'];
-			        $prostar = $result1['star'];
+			        /*$prostar = $result1['star'];
 			        $prouser = $result1['user'];
 			        if ($prouser == 0) {
 			        	$prorate = 0;	
 			        }
 			        else{
 			        	$prorate = round($prostar/$prouser,1);
-			        }
+			        }*/
 			        $prosn = $result1['sn'];
 			        $temp1 = str_replace('../','',$pstrim1);
 			        ?>
@@ -136,9 +136,9 @@
 				      	}
 				      ?>
 						  
-					  <small class="star" id="stara<?php echo $j; ?>"><?php echo $prorate; ?></small>
+					  <small class="star" id="stara<?php echo $j; ?>"><?php /*echo $prorate;*/ ?></small>
 					  <span class="lnr lnr-users" id="users<?php echo $j; ?>"></span>
-					  <strong class="user" id="usera<?php echo $j; ?>"><?php echo $prouser; ?></strong>
+					  <strong class="user" id="usera<?php echo $j; ?>"><?php /*echo $prouser;*/ ?></strong>
 				    </div>
 				    
 				  <?php

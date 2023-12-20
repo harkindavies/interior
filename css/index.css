@@ -1,7 +1,6 @@
 body{
 	padding: 0;
 	margin: 0;
-	overflow-x: ;
 	background: #867979;
 }
 .mycontainer{
@@ -100,9 +99,7 @@ body{
 	text-align: justify;
 	height: auto;
 }
-.content1{
-  padding-top: ;
-}
+
 .content2, .content3, .content4, .content5, .content6 {	margin-top: 0;}
 
 #details, #details2, #details3, #details4, #details5, #details6{font-family: Helvital;	font-size: 100%; }
@@ -453,7 +450,6 @@ div.mytooltip{
   color: #fff;
   border-radius: 5px;
   padding: 2px 10px;
-  visibility:;
   display: none;
 }
 

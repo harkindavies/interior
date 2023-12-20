@@ -42,7 +42,7 @@
       }
       
       $phone = test_inputorder($_POST["phone"]);
-      $ppattern = '/^\(?([+234]{4})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/';
+      $ppattern = '/^\(?([0]{1})\)?[-. ]?([0-9]{10})$/';
       if (!preg_match($ppattern, $phone) ) {
         $ordernum ="<div class='container'>
               <div class='row'>
@@ -324,7 +324,7 @@ $("#resultmodal").slideUp(0);
       var sparent = $(phon).parents('p');
       var pspan = sparent.children('span')[0];
       
-      var pattern2 = /^\(?([+234]{4})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+      var pattern2 = /^\(?([0]{1})\)?[-. ]?([0-9]{10})$/;
       if(phon.value.match(pattern2) )
       {
         phon.style.color = 'mediumseagreen';
@@ -333,12 +333,12 @@ $("#resultmodal").slideUp(0);
       else{
         phon.style.color = 'red';
         pspan.style.color = 'red';
-        pspan.innerHTML = "Pls follow this pattern +234 888-999-7777";
+        pspan.innerHTML = "Pls follow this pattern 08123456789";
       }
     }
 
     function ordermail(ml){
-      var ordermpattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      var ordermpattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,10})+$/;
       if (ml.value.match(ordermpattern)) {
         ml.style.color = "mediumseagreen";
         

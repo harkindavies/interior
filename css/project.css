@@ -29,7 +29,7 @@ body.bmain {
   color: #d50000;
 }
 #orderbtn{
-  position: fixed;
+  /*position: fixed;*/
   margin-left: 3px;
   background: orange;
   z-index: 22; 

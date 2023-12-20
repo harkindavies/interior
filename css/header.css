@@ -5,7 +5,6 @@
 		width: 100%; 
 		background-repeat: no-repeat; 
 		background-size: cover; 
-		background-position:;
 		top: 0;
 		display:block;
   		transition: bottom 0.9s;
@@ -37,8 +36,8 @@
 
 	nav ul li>a{
 		color: #fff;
-		font-size: 18px;
-		font-variant: small-caps;
+		font-size: 100%;
+		/*font-variant: small-caps;*/
 		margin: 10px ;
 	}
 	nav ul li>a:hover{
@@ -59,7 +58,6 @@
 		font-size: 3.5vw;
 		font-variant: small-caps;
 		margin-left: 20px;
-		vertical-align: ;
 	}
 
 	nav div a>span.name>span{
@@ -82,7 +80,6 @@
 	div.top .google{
 		 color: #d50000; 
 		 font-size: 30px;
-		 background: ;
 	}
 
 	.menubar {
